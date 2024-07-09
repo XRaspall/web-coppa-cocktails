@@ -1,0 +1,24 @@
+
+/* GENERAL */
+
+.object-fit-cover{
+    object-fit: cover;
+}
+
+.brightness07{
+    filter: brightness(0.7);
+}
+
+/* COLORS */
+
+.color-coppa-primary,.color-coppa-primary:hover,.color-coppa-primary:active,.color-coppa-primary:focus{
+    color: #392A27;
+}
+
+.color-coppa-secondary,.color-coppa-secondary:hover,.color-coppa-secondary:active,.color-coppa-secondary:focus{
+    color: #faf1e1;
+}
+
+.bg-coppa-primary{
+    background-color: #392A27;
+}

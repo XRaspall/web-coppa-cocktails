@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\RouteController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', [RouteController::class, 'home'])->name('home');
+
+
+// LANG ROUTES
+
+Route::get('/lang/{key}', function ($key) {
+    session()->put('locale', $key);
+    return redirect()->back();
 });

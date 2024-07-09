@@ -1,0 +1,53 @@
+
+/* HOME */
+
+.banner-home div.center-banner-div h2{
+    font-size: 70px;
+    line-height: 73px;
+    letter-spacing: -2.5px;
+    color: #FFFFFF;
+}
+
+.banner-home div.center-banner-div p strong{
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 2.57px;
+}
+
+.banner-home div.bottom-banner-div p{
+    display: block;
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: 1.71px;
+    line-height: 15px;
+    width: 100%;
+    color: #F8F7F3;
+    font-family: Montserrat, serif;
+}
+
+.section-info-home .width-info-text h2{
+    margin-bottom: 2.1875rem;
+    font-size: 54px;
+    font-weight: bolder;
+    line-height: 54px;
+}
+
+.section-info-home .width-info-text p{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 32px;
+}
+
+.section-info-home .width-info-text{
+    width: 550px;
+}
+
+.video-home-section .rounded-circle{
+    background-color: rgb(0 0 0 / 48%);
+    align-content: center;
+    text-align: center;
+    width: 9em;
+    height: 9em;
+}

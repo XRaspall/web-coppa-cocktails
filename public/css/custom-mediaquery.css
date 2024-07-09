@@ -1,0 +1,21 @@
+@media (max-width: 1200px) {
+    nav.header-page img, div.div-dropdown-navbar{
+        width: 100px;
+    }
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+}
+
+@media (max-width: 575px) {
+    section.banner-home div.center-banner-div h2{
+        font-size: 52px;
+        line-height: 52px;
+    }
+}
+
+

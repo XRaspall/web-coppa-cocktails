@@ -1,0 +1,18 @@
+@extends('layouts.app')
+
+@section('styles')
+    <link rel="stylesheet" href="{{ asset('css/home.css?version='.config('app.version')) }}"/>
+@endsection
+
+
+@section('content')
+
+    @include('home.banner')
+    @include('home.info')
+    @include('home.video')
+
+@endsection
+
+
+@section('scripts')
+@endsection

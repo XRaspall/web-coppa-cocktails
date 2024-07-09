@@ -1,0 +1,97 @@
+
+/* HEADER */
+
+nav.header-page img, div.div-dropdown-navbar{
+    width: 134px;
+    height: auto;
+}
+
+nav.header-page ul li a{
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1.71429px;
+    line-height: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 1.875rem;
+}
+
+nav.header-page .dropdown ul li a{
+    font-weight: 700;
+}
+
+div.div-dropdown-navbar button, div.div-dropdown-navbar svg{
+    fill: #dee1e9;
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    z-index: 2;
+    letter-spacing: 1.71429px;
+    line-height: 15px;
+}
+
+div.div-dropdown-navbar button:after{
+    display: none;
+}
+
+.dropdown-toggle[aria-expanded="true"] .current-language-icon {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease;
+    fill: #463527;
+}
+
+.dropdown-toggle[aria-expanded="false"] .current-language-icon {
+    transform: rotate(0deg);
+    transition: transform 0.3s ease;
+}
+
+div.div-dropdown-navbar ul.show{
+    border-radius: 30px 0px 30px 0px;
+    top: -22px;
+    height: 8em;
+    width: 8em;
+    z-index: 1;
+}
+
+div.div-dropdown-navbar ul li:first-child {
+    margin-top: 49px;
+}
+
+div.div-dropdown-navbar ul li:nth-child(2) {
+    margin-top: 9px;
+}
+
+div.div-dropdown-navbar .btn[aria-expanded="true"] {
+    color: #463527;
+}
+
+#header-navbar-phone a span{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.71px;
+    line-height: 15px;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+}
+
+.options-menu-div-phone a{
+    padding: 1.625rem 1.625rem 1.625rem 0;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 17px;
+}
+
+.options-menu-lang-phone a{
+    width: auto;
+    margin-right: 19px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1.71429px;
+    line-height: 33px;
+    text-transform: uppercase;
+}

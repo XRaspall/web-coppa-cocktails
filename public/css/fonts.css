@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'BarlowCondensedBlack';
+    src: url('../fonts/BarlowCondensed-Black.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'BarlowCondensedSemiBold';
+    src: url('../fonts/BarlowCondensed-SemiBold.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'BarlowCondensedMedium';
+    src: url('../fonts/BarlowCondensed-Medium.ttf') format('opentype');
+}
+
+.ff-BarlowCondensedBlack{
+    font-family: 'BarlowCondensedBlack',serif;
+}
+
+.ff-BarlowCondensedSemiBold{
+    font-family: 'BarlowCondensedSemiBold',serif;
+}
+
+.ff-BarlowCondensedMedium{
+    font-family: 'BarlowCondensedMedium',serif;
+}
+
+
+.ff-Montserrat{
+    font-family: Montserrat;
+}

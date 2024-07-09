@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>@yield('title', 'Coppa Cocktails Homepage')</title>
-    <link rel="icon" type="image/png" href="{{ asset('img/favicon.ico?version='.rand()) }}">
+    <link rel="icon" type="image/png" href="{{ asset('favicon.ico?version='.config('app.version')) }}">
 
     <meta name="description" content="@yield('description', 'At Coppa Cocktails we help bring people together in celebration of life, love and friends with the most delicious cocktails on the planet. Enjoy our range of over 15 ready-to-drink cocktails created with world-class bartenders. Just add ice for a high-quality cocktail in an instant.')">
     <meta name="keywords" content="Coppa Cocktails, ready-to-drink cocktails, premium cocktails, natural ingredients, world-class bartenders, high-quality cocktails, instant cocktails">
