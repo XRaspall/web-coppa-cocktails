@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [RouteController::class, 'home'])->name('home');
+Route::get('/contacto', [RouteController::class, 'contact'])->name('contactPage');
 
 
 // LANG ROUTES
