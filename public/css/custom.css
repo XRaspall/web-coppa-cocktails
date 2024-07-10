@@ -9,6 +9,10 @@
     filter: brightness(0.7);
 }
 
+.h-80{
+    height: 80%;
+}
+
 /* COLORS */
 
 .color-coppa-primary,.color-coppa-primary:hover,.color-coppa-primary:active,.color-coppa-primary:focus{
@@ -17,6 +21,10 @@
 
 .color-coppa-secondary,.color-coppa-secondary:hover,.color-coppa-secondary:active,.color-coppa-secondary:focus{
     color: #faf1e1;
+}
+
+.color-coppa-third{
+    color: #d7c6a0;
 }
 
 .bg-coppa-primary{

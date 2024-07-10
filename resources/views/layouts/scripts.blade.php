@@ -3,3 +3,4 @@
 <script src="{{ asset('js/swiper-bundle.min.js?version='.config('app.version')) }}"></script>
 <script src="{{ asset('js/menu.js?version='.config('app.version')) }}"></script>
 <script src="{{ asset('js/custom.js?version='.config('app.version')) }}"></script>
+<script src="{{ asset('js/modal.js?version='.config('app.version')) }}"></script>
