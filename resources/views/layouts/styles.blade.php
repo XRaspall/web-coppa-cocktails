@@ -6,3 +6,10 @@
 <link rel="stylesheet" href="{{ asset('css/custom-mediaquery.css?version='.config('app.version')) }}"/>
 <link rel="stylesheet" href="{{ asset('css/animate.min.css?version='.config('app.version')) }}"/>
 @yield('styles')
+
+{{-- DECLARO EL SWIPPER ANTES PARA QUE LO DETECTE PARA LOS SLIDES --}}
+<link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

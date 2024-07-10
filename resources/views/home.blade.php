@@ -10,6 +10,9 @@
     @include('home.banner')
     @include('home.info')
     @include('home.video')
+    @include('home.slideCoppa')
+    @include('home.slideImages')
+    @include('home.cocktailsSlide')
 
 @endsection
 
