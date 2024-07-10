@@ -1,6 +1,10 @@
 
 /* HEADER */
 
+.header-page {
+    transition: background-color 0.5s ease;
+}
+
 nav.header-page img, div.div-dropdown-navbar{
     width: 134px;
     height: auto;

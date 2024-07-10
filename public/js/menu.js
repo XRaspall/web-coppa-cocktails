@@ -31,11 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     window.addEventListener('scroll', function() {
         if (window.scrollY > 0) {
-            headerPage.classList.add('animate__fadeIn');
-            headerPage.classList.remove('animate__fadeOut');
             headerPage.style.backgroundColor = 'white';
-
-            // Cambiar todas las clases color-coppa-secondary a color-coppa-primary
             const secondaryElements = headerPage.querySelectorAll('.color-coppa-secondary');
             secondaryElements.forEach(function(element) {
                 element.classList.remove('color-coppa-secondary');
@@ -43,9 +39,6 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         } else {
             headerPage.style.backgroundColor = 'transparent';
-            headerPage.classList.add('animate__fadeOut');
-            headerPage.classList.remove('animate__fadeIn');
-            // Cambiar todas las clases color-coppa-primary de vuelta a color-coppa-secondary
             const primaryElements = headerPage.querySelectorAll('.color-coppa-primary');
             primaryElements.forEach(function(element) {
                 element.classList.remove('color-coppa-primary');
@@ -54,3 +47,4 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
