@@ -5,6 +5,8 @@
 
     <body class="">
 
+        @include('layouts.alert')
+
         @include('layouts.header')
 
         @yield('content')
