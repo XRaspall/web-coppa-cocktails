@@ -9,6 +9,10 @@
 }
 
 @media (max-width: 767px) {
+    .img-404{
+        height: 27em;
+        object-fit: cover;
+    }
 }
 
 @media (max-width: 575px) {
@@ -16,6 +20,8 @@
         font-size: 52px;
         line-height: 52px;
     }
+
+
 }
 
 
