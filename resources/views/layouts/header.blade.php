@@ -1,5 +1,5 @@
 {{-- PC HEADER --}}
-<nav id="header-navbar" class="d-none d-xl-block navbar navbar-expand-lg navbar-light bg-transparent fixed-top px-5 header-page">
+<nav id="header-navbar" class="animate__animated d-none d-xl-block navbar navbar-expand-lg navbar-light fixed-top px-5 header-page">
     <div class="container-fluid">
         <a class="navbar-brand ms-5" href="{{ route('home') }}">
             <img src="{{ asset('img/logo.webp?version='.config('app.version')) }}" alt="Logo" title="Logo">
@@ -37,7 +37,7 @@
 </nav>
 
 {{-- PHONE HEADER --}}
-<nav id="header-navbar-phone" class="d-block d-xl-none pt-0 navbar navbar-expand-lg navbar-light bg-transparent fixed-top header-page">
+<nav id="header-navbar-phone" class="animate__animated d-block d-xl-none pt-0 navbar navbar-expand-lg navbar-light fixed-top header-page">
 
     {{--  NAVBAR PHONE --}}
     <div id="navbar-menu-btn" class="d-flex justify-content-between">
