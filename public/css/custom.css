@@ -13,6 +13,10 @@
     height: 80%;
 }
 
+.vh-80{
+    height: 80vh;
+}
+
 /* COLORS */
 
 .color-coppa-primary,.color-coppa-primary:hover,.color-coppa-primary:active,.color-coppa-primary:focus{
