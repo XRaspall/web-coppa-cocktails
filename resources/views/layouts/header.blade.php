@@ -13,7 +13,7 @@
                     <a class="nav-link color-coppa-secondary ff-Montserrat" href="#">OUR COCKTAILS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link color-coppa-secondary ff-Montserrat" href="#">CONTACT</a>
+                    <a class="nav-link color-coppa-secondary ff-Montserrat" href="{{ route('contactPage') }}">CONTACT</a>
                 </li>
             </ul>
         </div>

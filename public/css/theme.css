@@ -211,3 +211,21 @@ div.div-dropdown-navbar .btn[aria-expanded="true"] {
     width: 150px;
     z-index: 10;
 }
+
+/* FOOTER */
+
+.links-container{
+    width: 250px;
+}
+
+.links-container li, .links-container li a{
+    color: #faf1e1;
+    font-size: 1rem;
+    letter-spacing: 1.71429px;
+    border-bottom: 0 solid transparent;
+    line-height: 22px;
+    margin-bottom: 2rem;
+    padding-bottom: 0;
+    text-align: left;
+    text-transform: none;
+}
