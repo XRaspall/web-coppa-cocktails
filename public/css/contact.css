@@ -64,6 +64,24 @@
     font-size: 24px;
 }
 
+#exampleModalCenter h5{
+    font-size: 40px;
+}
+#exampleModalCenter label{
+    font-size: 16px;
+}
+
+#exampleModalCenter .form-control{
+    border-radius: 0;
+    border: 1px solid black;
+}
+
+#exampleModalCenter input{
+    line-height: 17px;
+    padding: 1rem;
+}
+
+
 .message-button {
     font-size: 12px;
     font-weight: 700;
@@ -98,3 +116,10 @@
     font-weight: normal;
     line-height: 2;
 }
+
+/* PHOTOS */
+
+.photos-container h1{
+    font-size: 60px;
+}
+

@@ -1,8 +1,8 @@
 <footer class="bg-coppa-primary text-light py-5">
-    <div class="row w-100">
+    <div class="row w-100 mt-5">
         <div class="col-md-4 d-flex justify-content-center">
             <div class="d-flex flex-column">
-                <a href="{{ route('home') }}"><img src="{{ asset('img/logo.webp') }}" alt="Coppa Cocktails Logo" class="" width="150"></a>
+                <a href="{{ route('home') }}"><img src="{{ asset('img/logo.webp') }}" alt="Coppa Cocktails Logo" class="mb-5" width="150"></a>
                 <p class="ff-Montserrat fw-bold">Coppa Cocktails B.V.</p>
                 <p class="ff-Montserrat fw-light">Amsterdam (NL)</p>
                 <p class="ff-Montserrat fw-light">&copy; 2021 - Coppa Cocktails B.V.</p>
@@ -13,10 +13,10 @@
         <div class="col-md-4 d-flex justify-content-center">
             <div class="links-container">
                 <ul class="list-unstyled">
-                    <li class="mb-3"><a href="{{ route('home') }}" class="text-decoration-none ff-Montserrat">About us</a></li>
-                    <li class="mb-3"><a href="{{ route('home') }}" class="text-decoration-none ff-Montserrat">Our cocktails</a></li>
-                    <li class="mb-3"><a href="{{ route('home') }}" class="text-decoration-none ff-Montserrat">What's Happening</a></li>
-                    <li class="mb-3"><a href="{{ route('contactPage') }}" class="text-decoration-none ff-Montserrat">Contact</a></li>
+                    <li class="mb-4"><a href="{{ route('home') }}" class="text-decoration-none ff-Montserrat">About us</a></li>
+                    <li class="mb-4"><a href="{{ route('home') }}" class="text-decoration-none ff-Montserrat">Our cocktails</a></li>
+                    <li class="mb-4"><a href="{{ route('home') }}" class="text-decoration-none ff-Montserrat">What's Happening</a></li>
+                    <li class="mb-4"><a href="{{ route('contactPage') }}" class="text-decoration-none ff-Montserrat">Contact</a></li>
                 </ul>
             </div>
         </div>

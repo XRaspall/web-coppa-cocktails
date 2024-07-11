@@ -8,9 +8,11 @@
     @include('contact.banner')
     @include('contact.info')
     @include('contact.details')
+    @include('contact.photos')
 @endsection
 
 @section('scripts')
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             function initObserver(animationClass, element) {
@@ -40,5 +42,6 @@
                 initObserver(animationClass, el);
             });
         });
+
     </script>
 @endsection
