@@ -13,6 +13,10 @@
     height: 80%;
 }
 
+.vh-80{
+    height: 80vh;
+}
+
 /* COLORS */
 
 .color-coppa-primary,.color-coppa-primary:hover,.color-coppa-primary:active,.color-coppa-primary:focus{
@@ -29,4 +33,33 @@
 
 .bg-coppa-primary{
     background-color: #392A27;
+}
+
+.color-transparent{
+    color: transparent;
+}
+
+/* BG IMAGE GENERAL */
+
+.section-background-fourone{
+    background-image: url('../img/home/bgslideimages.webp');
+}
+
+.swiper-pagination-brown-line span.swiper-pagination-bullet{
+    width: 100px;
+    height: 2px;
+    margin: 0 !important;
+}
+.div-slideImages-controllers{
+    z-index: 9999;
+}
+
+
+
+.div-slideImages-controllers .swiper-button-prev:after,.div-slideImages-controllers .swiper-button-next:after {
+    font-size: 25px;
+}
+
+.swiper-pagination-brown-line span.swiper-pagination-bullet-active{
+    background-color:#392A27 ;
 }

@@ -1,7 +1,7 @@
 <section class="section-info-home">
     <div class="row w-100">
         <div class="col-12 col-md-6 p-0">
-            <img class="w-100" src="{{ asset('img/home/info.jpg?version='.config('app.version')) }}">
+            <img class="w-100 vh-80" src="{{ asset('img/home/info.jpg?version='.config('app.version')) }}">
         </div>
         <div class="col-12 col-md-6 p-0">
             <div class="h-100 d-flex justify-content-center align-items-center">
