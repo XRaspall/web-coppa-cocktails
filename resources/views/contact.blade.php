@@ -9,6 +9,7 @@
     @include('contact.info')
     @include('contact.details')
     @include('contact.photos')
+    @include('contact.slideImages')
 @endsection
 
 @section('scripts')

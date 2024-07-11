@@ -66,6 +66,7 @@
 
 #exampleModalCenter h5{
     font-size: 40px;
+    color: #463527;
 }
 #exampleModalCenter label{
     font-size: 16px;
@@ -105,6 +106,57 @@
     transition: opacity 0.3s ease-in-out;
 }
 
+
+.cancel-button{
+    border-bottom: 1px solid #392a27;
+    color: #392a27;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1.71429px;
+    line-height: 15px;
+    margin-left: auto;
+    margin-top: .5rem;
+    max-width: 3.75rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+}
+
+.cancel-button:hover{
+    color: #392a27;
+
+}
+
+.modal-content {
+    max-height: calc(100vh - 10em);
+    overflow-y: auto;
+}
+
+#exampleModalCenter .modal-dialog{
+    width: 50em;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 .05rem black;
+}
+
+.mt-form-custom{
+    margin-top: -5em;
+}
+
+.modal-flowers-top{
+    width: 10vw;
+}
+
+.modal-flowers-bottom{
+    width: 7em;
+    left: 0;
+
+}
+
 /* DETAILS */
 
 .details-container h2{
@@ -119,7 +171,64 @@
 
 /* PHOTOS */
 
-.photos-container h1{
+/* CARRUSEL DE 4 IMÁGENES y 1 GRANDE */
+
+.div-home-slideimages h2{
     font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -1.25px;
+    line-height: 68px;
+    text-align: center;
 }
+
+.div-home-slideimages a{
+    margin-left: 1rem;
+}
+
+.section-slideImage {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+.section-slideImage .swiper-container {
+    width: 100%;
+    height: 100%;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+.section-slideImage  .swiper-wrapper {
+    display: flex;
+}
+
+.section-slideImage .swiper-slide {
+    flex: 0 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background: #fff;
+    padding: 20px;
+    margin: 0 10px;
+}
+
+
+.section-slideImage .swiper-slide img {
+    width: calc(50% - 10px);
+    margin: 5px;
+    height: auto;
+    object-fit: cover;
+}
+.section-slideImage .swiper-slide img.full-width {
+    width: calc(100% - 10px);
+    margin: 5px 0;
+}
+.section-slideImage .swiper-button-next,
+.section-slideImage .swiper-button-prev {
+    color: #000;
+}
+
+
 

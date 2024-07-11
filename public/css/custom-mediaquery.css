@@ -10,7 +10,13 @@
 }
 
 @media (max-width: 991px) {
+    .mt-form-custom{
+        margin-top: 0;
+    }
 
+    .modal-flowers-top{
+        width: 5em;
+    }
 }
 
 @media (max-width: 767px) {
@@ -22,6 +28,8 @@
     .swiper-pagination-brown-line span.swiper-pagination-bullet {
         width: 70px;
     }
+
+
 
 }
 
@@ -38,6 +46,8 @@
     .swiper-pagination-brown-line span.swiper-pagination-bullet {
         width: 35px;
     }
+
+
 
 }
 
