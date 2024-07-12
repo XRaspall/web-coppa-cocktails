@@ -14,7 +14,7 @@
             <div class="links-container">
                 <ul class="list-unstyled">
                     <li class="mb-4"><a href="{{ route('home') }}" class="text-decoration-none ff-Montserrat">About us</a></li>
-                    <li class="mb-4"><a href="{{ route('home') }}" class="text-decoration-none ff-Montserrat">Our cocktails</a></li>
+                    <li class="mb-4"><a href="{{ route('ourCocktailsPage') }}" class="text-decoration-none ff-Montserrat">Our cocktails</a></li>
                     <li class="mb-4"><a href="{{ route('home') }}" class="text-decoration-none ff-Montserrat">What's Happening</a></li>
                     <li class="mb-4"><a href="{{ route('contactPage') }}" class="text-decoration-none ff-Montserrat">Contact</a></li>
                 </ul>

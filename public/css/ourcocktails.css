@@ -1,0 +1,161 @@
+/* BANNER */
+
+.banner-contact {
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-contact::before,
+.banner-contact::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 30vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.banner-contact::before {
+    left: 0;
+    background-image: url('../img/contact/leafs-left.webp');
+}
+
+.banner-contact::after {
+    right: 0;
+    background-image: url('../img/contact/leafs-right.webp');
+}
+
+.banner-contact div.center-banner-div h2{
+    font-size: 70px;
+    line-height: 73px;
+    letter-spacing: -2.5px;
+    color: #FFFFFF;
+}
+
+.banner-contact div.center-banner-div p strong{
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 2.57px;
+}
+
+.banner-contact div.bottom-banner-div p{
+    display: block;
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: 1.71px;
+    line-height: 15px;
+    width: 100%;
+    color: #F8F7F3;
+    font-family: Montserrat, serif;
+}
+
+/* HEADER */
+
+.menu-link{
+    color: #392a27;
+    display: block;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1.71429px;
+    line-height: 15px;
+    margin: 0 30px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu-link.active {
+    border-bottom: 1px solid #392a27;
+}
+
+.menu-link:hover{
+    color: #392a27;
+}
+
+.message-button {
+    font-size: 12px;
+    font-weight: 700;
+    color: #392a27;
+    letter-spacing: 1.71429px;
+    background-color: transparent;
+    border: 1px solid #392a27;
+    padding: 15px 20px;
+    border-radius: 20px 0 20px 0;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.message-button:hover {
+    background-color: #392a27;
+    color: #ffffff;
+}
+
+/* COCKTAILS */
+
+.cocktails-slide img{
+    width: 10em;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 20px;
+}
+
+.swiper-button-next, .swiper-button-prev{
+    color: #392a27;
+}
+
+.cocktails-slide h3{
+    font-size: 32px;
+}
+
+
+
+
+/* TYPES */
+
+.types-container h2{
+    font-size: 54px;
+    margin-bottom: 2.2rem;
+}
+
+.types-container p{
+    font-size: 16px;
+    line-height: 32px;
+
+}
+
+.types-container img{
+    height: 40em;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+
+/* DETAILS */
+
+.details-container h2{
+    font-size: 54px;
+}
+
+.secondary-link{
+    color: #392a27;
+    display: block;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1.71429px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 1px solid #392a27;
+}
+
+.secondary-link:hover{
+    color: #392a27;
+}
+

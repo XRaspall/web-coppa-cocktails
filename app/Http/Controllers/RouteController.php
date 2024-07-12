@@ -2,10 +2,17 @@
 
 namespace App\Http\Controllers;
 
+use App\Interfaces\CocktailRepositoryInterface;
 use Illuminate\Http\Request;
 
 class RouteController extends Controller
 {
+    private CocktailRepositoryInterface $cocktailRepository;
+
+    public function __construct( CocktailRepositoryInterface $cocktailRepository)
+    {
+        $this->cocktailRepository = $cocktailRepository;
+    }
     public function home(){
         return view('home');
     }
@@ -27,6 +34,28 @@ class RouteController extends Controller
         ];
 
         return view('contact', compact('details'));
+    }
+
+    public function ourCocktails(){
+        $details = [
+            'image' => 'img/ourcocktails/details.webp',
+            'title' => 'Thirsty for more?',
+            'text' => '
+                <p>Explore buying options on our store locator or join the Coppa Cocktails community and get in touch with us!</p>
+            ',
+            'text1' => 'FIND A STORE',
+            'link1' => '/',
+            'text2' => 'CONTACT US',
+            'link2' => '/contacto',
+        ];
+
+        return view('ourcocktails', compact('details'));
+    }
+
+    public function cocktail($url){
+        $cocktail = $this->cocktailRepository->findByUrlWithRelations($url,['images']);
+
+        return view('cocktail',compact('cocktail'));
     }
 
 }

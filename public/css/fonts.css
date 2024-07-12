@@ -13,6 +13,11 @@
     src: url('../fonts/BarlowCondensed-Medium.ttf') format('opentype');
 }
 
+@font-face {
+    font-family: 'PragatiNarrowRegular';
+    src: url('../fonts/PragatiNarrow-Regular.ttf') format('opentype');
+}
+
 .ff-BarlowCondensedBlack{
     font-family: 'BarlowCondensedBlack',serif;
 }
@@ -23,6 +28,9 @@
 
 .ff-BarlowCondensedMedium{
     font-family: 'BarlowCondensedMedium',serif;
+}
+.ff-PragatiNarrowRegular{
+    font-family: 'PragatiNarrowRegular',serif;
 }
 
 .ff-Montserrat{

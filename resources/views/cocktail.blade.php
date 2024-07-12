@@ -1,14 +1,12 @@
 @extends('layouts.app')
 
 @section('styles')
-    <link rel="stylesheet" href="{{ asset('css/contact.css?version='.config('app.version')) }}"/>
+    <link rel="stylesheet" href="{{ asset('css/cocktail.css?version='.config('app.version')) }}"/>
 @endsection
 
 @section('content')
-    @include('contact.banner')
-    @include('contact.info')
-    @include('contact.details')
-    @include('contact.slideImages')
+    @include('cocktail.content')
+    @include('cocktail.slide')
 @endsection
 
 @section('scripts')
