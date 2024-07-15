@@ -54,7 +54,7 @@
 
 
             <a class="text-decoration-none" target="_blank" href="https://www.instagram.com/coppacocktails_us/">
-                <div class="swiper-container">
+                <div class="swiper-container swiper-container-fourone">
                     <div class="swiper-wrapper height-slideImage-carrusel">
                         <div class="swiper-slide p-0 bg-transparent">
                             <img class="" src="{{ asset('img/home/carrusel/Tequila_ Sunrise_Coppa_Cocktails_8.webp') }}" alt="Image 1">

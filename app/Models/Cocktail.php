@@ -25,6 +25,11 @@ class Cocktail extends Model
         'text3_us',
         'video',
         'link',
+        'originalImage',
+        'appear1',
+        'appear2',
+        'appear3',
+        'appear4',
     ];
 
     public function images()

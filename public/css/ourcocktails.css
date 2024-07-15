@@ -97,8 +97,16 @@
 
 /* COCKTAILS */
 
-.cocktails-slide img{
+.cocktails-slide img.coppa-img{
     width: 10em;
+    z-index: 4;
+    position: relative;
+}
+
+.swiper-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
 .swiper-button-next:after, .swiper-button-prev:after {
@@ -124,6 +132,7 @@
     transform: translate(-50%, -50%);
     display: none;
     text-decoration: none;
+    z-index: 9;
 }
 
 .center-button:hover {
@@ -135,6 +144,38 @@
     display: block;
 }
 
+/* HOVER EFECT CARROUSEL */
+
+.appear1-carrusel{
+    position: absolute;
+    top: -103px;
+    right: -58px;
+    z-index: 3;
+    width: 24em;
+}
+
+.appear2-carrusel{
+    position: absolute;
+    top: -103px;
+    right: -72px;
+    z-index: 3;
+    width: 24em;
+}
+
+.appear3-carrusel{
+    position: absolute;
+    top: -52px;
+    right: -58px;
+    z-index: 3;
+    width: 24em;
+}
+.appear4-carrusel{
+    position: absolute;
+    top: -45px;
+    right: -58px;
+    z-index: 3;
+    width: 24em;
+}
 
 /* TYPES */
 

@@ -113,7 +113,9 @@ class RouteController extends Controller
             'link2' => '/contacto',
         ];
 
-        return view('ourcocktails', compact('details'));
+        $cocktails = $this->cocktailRepository->all();
+
+        return view('ourcocktails', compact('cocktails','details'));
     }
 
     public function cocktail($url){

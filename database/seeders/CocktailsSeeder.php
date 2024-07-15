@@ -105,6 +105,7 @@ class CocktailsSeeder extends Seeder
         ];
 
 
+
         for ($i = 0; $i < count($names); $i++) {
             $cocktail = Cocktail::create([
                 'name' => $names[$i],
@@ -115,6 +116,11 @@ class CocktailsSeeder extends Seeder
                 'text3_en' => $texts3_en[$i],
                 'video' => 'storage/cocktails/' . $i + 1 . '/cocktail.mp4',
                 'link' => $links[$i],
+                'originalImage' => 'storage/cocktails/' . $i + 1 . '/images/originalImage.webp',
+                'appear1' => 'storage/cocktails/' . $i + 1 . '/images/appear1.webp',
+                'appear2' => 'storage/cocktails/' . $i + 1 . '/images/appear2.webp',
+                'appear3' => 'storage/cocktails/' . $i + 1 . '/images/appear3.webp',
+                'appear4' => 'storage/cocktails/' . $i + 1 . '/images/appear4.webp',
             ]);
 
             for ($j = 1; $j <= 6; $j++) {

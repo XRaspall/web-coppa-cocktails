@@ -27,6 +27,11 @@ return new class extends Migration
             $table->text('text3_us')->nullable();
             $table->text('video')->nullable();
             $table->text('link')->nullable();
+            $table->text('originalImage')->nullable();
+            $table->text('appear1')->nullable();
+            $table->text('appear2')->nullable();
+            $table->text('appear3')->nullable();
+            $table->text('appear4')->nullable();
             $table->timestamps();
         });
     }
