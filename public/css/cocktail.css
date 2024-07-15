@@ -29,10 +29,11 @@
 
 .cocktail-content h1{
     font-size: 100px;
+    line-height: 80px;
 }
 
 .cocktail-text-container{
-    width: 550px;
+    width: 585px;
 }
 
 .cocktail-text-container p{
@@ -100,6 +101,62 @@
 
 .cocktails-slide h2{
     font-size: 54px;
+}
+
+/* SLIDE */
+
+.wheretobuy-button {
+    font-size: 12px;
+    font-weight: 700;
+    color: #392a27;
+    letter-spacing: 1.71429px;
+    background-color: transparent;
+    border: 1px solid #392a27;
+    padding: 30px 40px;
+    border-radius: 20px 0 20px 0;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.wheretobuy-button:hover {
+    background-color: #392a27;
+    color: #ffffff;
+}
+
+.message-button {
+    font-size: 12px;
+    font-weight: 700;
+    color: #392a27;
+    letter-spacing: 1.71429px;
+    background-color: transparent;
+    border: 1px solid #392a27;
+    padding: 15px 20px;
+    border-radius: 20px 0 20px 0;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.message-button:hover {
+    background-color: #392a27;
+    color: #ffffff;
+}
+
+.center-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    text-decoration: none;
+}
+
+.center-button:hover {
+    background-color: #392a27;
+    color: #ffffff;
+}
+
+.swiper-slide:hover .center-button {
+    display: block;
 }
 
 

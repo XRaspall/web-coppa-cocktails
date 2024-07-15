@@ -9,24 +9,28 @@
                 <div class="swiper-wrapper height-slideImage-carrusel">
                     <div class="swiper-slide p-0 bg-transparent text-center">
                         <img class="" src="{{ asset('img/cocktails/mojito.webp') }}" alt="Mojito">
-                        <h3 class="color-coppa-primary ff-PragatiNarrowRegular">Mojito</h3>
+                        <h3 class="color-coppa-primary ff-PragatiNarrowRegular">{{ __('ourcocktails.slide.cocktail1') }}</h3>
+                        <a class="center-button message-button ff-Montserrat animate-on-scroll" data-animation="animate__fadeIn" href="{{ url('/cocktails/mojito') }}">MORE INFO</a>
                     </div>
                     <div class="swiper-slide p-0 bg-transparent text-center">
                         <img class="" src="{{ asset('img/cocktails/piñacolada.webp') }}" alt="Mojito">
-                        <h3 class="color-coppa-primary ff-PragatiNarrowRegular">Piña Colada</h3>
+                        <h3 class="color-coppa-primary ff-PragatiNarrowRegular">{{ __('ourcocktails.slide.cocktail2') }}</h3>
+                        <a class="center-button message-button ff-Montserrat animate-on-scroll" data-animation="animate__fadeIn" href="{{ url('/cocktails/pina-colada') }}">MORE INFO</a>
                     </div>
                     <div class="swiper-slide p-0 bg-transparent text-center">
                         <img class="" src="{{ asset('img/cocktails/strawberrydakiri.webp') }}" alt="Mojito">
-                        <h3 class="color-coppa-primary ff-PragatiNarrowRegular">Strawberry Daiquiri</h3>
+                        <h3 class="color-coppa-primary ff-PragatiNarrowRegular">{{ __('ourcocktails.slide.cocktail3') }}</h3>
+                        <a class="center-button message-button ff-Montserrat animate-on-scroll" data-animation="animate__fadeIn" href="{{ url('/cocktails/strawberry-daiquiri') }}">MORE INFO</a>
                     </div>
                     <div class="swiper-slide p-0 bg-transparent text-center">
                         <img class="" src="{{ asset('img/cocktails/sexonthebeach.webp') }}" alt="Mojito">
-                        <h3 class="color-coppa-primary ff-PragatiNarrowRegular">Sex On The Beach</h3>
+                        <h3 class="color-coppa-primary ff-PragatiNarrowRegular">{{ __('ourcocktails.slide.cocktail4') }}</h3>
+                        <a class="center-button message-button ff-Montserrat animate-on-scroll" data-animation="animate__fadeIn" href="{{ url('/cocktails/sex-on-the-beach') }}">MORE INFO</a>
                     </div>
-{{--                    <div class="swiper-slide p-0 bg-transparent text-center">--}}
-{{--                        <img class="" src="{{ asset('img/cocktails/maitai.webp') }}" alt="Mojito">--}}
-{{--                        <h3 class="color-coppa-primary ff-PragatiNarrowRegular">Mai Tai</h3>--}}
-{{--                    </div>--}}
+                    <div class="swiper-slide p-0 bg-transparent text-center">
+                        <img class="" src="{{ asset('img/cocktails/maitai.webp') }}" alt="Mojito">
+                        <h3 class="color-coppa-primary ff-PragatiNarrowRegular">Mai Tai</h3>
+                    </div>
                 </div>
                 <div class="swiper-button-next position-relative mt-4 swiper-pagination-brown-line"></div>
 
@@ -41,47 +45,5 @@
 </section>
 
 
-<script>
-    var swiper = new Swiper('.swiper-container', {
-        slidesPerView: 4,
-        spaceBetween: 10,
-        loop: true,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        scrollbar: {
-            el: '.swiper-scrollbar',
-            hide: false,
-        },
-        breakpoints: {
-            1399: {
-                slidesPerView: 4,
-            },
-            1200: {
-                slidesPerView: 3,
-            },
-            1000: {
-                slidesPerView: 3,
-            },
-            767: {
-                slidesPerView: 2,
-            },
-            580: {
-                slidesPerView: 2,
-            },
-            480: {
-                slidesPerView: 1,
-            },
-            100: {
-                slidesPerView: 1,
-            }
-        }
-    });
 
-</script>
 

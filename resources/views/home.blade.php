@@ -13,6 +13,7 @@
     @include('home.slideCoppa')
     @include('home.slideImages')
     @include('home.cocktailsSlide')
+    @include('home.details')
 
 @endsection
 

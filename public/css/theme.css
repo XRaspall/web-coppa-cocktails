@@ -230,6 +230,13 @@ div.div-dropdown-navbar .btn[aria-expanded="true"] {
     text-transform: none;
 }
 
+/* ANIMATE */
+
+.hidden-before-scroll {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
 
 /* 404 */
 

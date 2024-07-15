@@ -17,6 +17,15 @@
     .modal-flowers-top{
         width: 5em;
     }
+    .cocktail-content h1{
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .cocktail-text1-container,.cocktail-text2-container{
+        font-size: 16px;
+        line-height: 32px;
+    }
 }
 
 @media (max-width: 767px) {

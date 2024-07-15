@@ -113,7 +113,27 @@
     font-size: 32px;
 }
 
+.swiper-slide {
+    position: relative;
+}
 
+.center-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    text-decoration: none;
+}
+
+.center-button:hover {
+    background-color: #392a27;
+    color: #ffffff;
+}
+
+.swiper-slide:hover .center-button {
+    display: block;
+}
 
 
 /* TYPES */
@@ -129,12 +149,26 @@
 
 }
 
-.types-container img{
+.types-container .col-img{
     height: 40em;
     width: 100%;
     object-fit: cover;
 
 }
+
+.types-container {
+    position: relative;
+}
+
+.butterfly-img {
+    position: absolute;
+    top: 10px;
+    right: 45%;
+    width: 11em;
+    height: auto;
+    z-index: 10;
+}
+
 
 
 /* DETAILS */
