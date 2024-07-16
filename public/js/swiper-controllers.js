@@ -40,6 +40,33 @@ var swiper = new Swiper('.swiper-container-fourone', {
     }
 });
 
+const swiper2 = new Swiper('.swiper-container-contact', {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    loop: true,
+    breakpoints: {
+        640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+        768: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+        },
+        1024: {
+            slidesPerView: 4,
+            spaceBetween: 50,
+        },
+    },
+});
 
 
 // CARROUSEL DE LAS BOTELLAS

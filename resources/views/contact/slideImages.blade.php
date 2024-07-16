@@ -1,5 +1,4 @@
-
-<section class="section-background-fourone">
+<section class="section-background-onefour">
 
     <div class="container px-0 py-5">
 
@@ -53,7 +52,7 @@
 
 
             <a class="text-decoration-none" target="_blank" href="https://www.instagram.com/coppacocktails_us/">
-                <div class="swiper-container">
+                <div class="swiper-container swiper-container-contact">
                     <div class="swiper-wrapper height-slideImage-carrusel">
                         <div class="swiper-slide p-0 bg-transparent">
                             <img class="full-width" src="{{ asset('img/contact/carrusel/Negroni_Coppa_Cocktails_9.webp') }}" alt="Image 5">
@@ -87,5 +86,3 @@
     </div>
 
 </section>
-
-
