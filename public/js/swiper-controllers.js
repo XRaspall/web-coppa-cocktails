@@ -55,12 +55,8 @@ document.addEventListener('DOMContentLoaded', function () {
             clickable: true,
         },
         breakpoints: {
-            380: {
+            430: {
                 slidesPerView: 1,
-                spaceBetween: 20
-            },
-            500: {
-                slidesPerView: 2,
                 spaceBetween: 20
             },
             768: {
