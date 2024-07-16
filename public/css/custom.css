@@ -149,3 +149,51 @@
     z-index: 3;
     width: 24em;
 }
+
+/* DETAILS */
+
+.details-container h2{
+    font-size: 54px;
+}
+
+.details-container h6{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 2;
+}
+
+.message-button {
+    font-size: 12px;
+    font-weight: 700;
+    color: #392a27;
+    letter-spacing: 1.71429px;
+    background-color: transparent;
+    border: 1px solid #392a27;
+    padding: 15px 20px;
+    border-radius: 20px 0 20px 0;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.message-button:hover {
+    background-color: #392a27;
+    color: #ffffff;
+}
+
+.secondary-link{
+    color: #392a27;
+    display: block;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1.71429px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 1px solid #392a27;
+}
+
+.secondary-link:hover{
+    color: #392a27;
+}
+
+

@@ -83,27 +83,6 @@
 }
 
 
-.message-button {
-    font-size: 12px;
-    font-weight: 700;
-    color: #392a27;
-    letter-spacing: 1.71429px;
-    background-color: transparent;
-    border: 1px solid #392a27;
-    padding: 15px 20px;
-    border-radius: 20px 0 20px 0;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.message-button:hover {
-    background-color: #392a27;
-    color: #ffffff;
-}
-
-
-
-
 .cancel-button{
     border-bottom: 1px solid #392a27;
     color: #392a27;
@@ -152,18 +131,6 @@
     width: 7em;
     left: 0;
 
-}
-
-/* DETAILS */
-
-.details-container h2{
-    font-size: 54px;
-}
-
-.details-container h6{
-    font-size: 14px;
-    font-weight: normal;
-    line-height: 2;
 }
 
 /* PHOTOS */

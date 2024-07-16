@@ -1,8 +1,8 @@
 <?php
 return [
     'banner' => [
-        'title1' => 'GET IN TOUCH',
-        'title2' => 'JUST ADD CONTACT',
+        'title1' => 'CONTACT',
+        'title2' => 'GET IN TOUCH',
     ],
 
     'info' => [
@@ -10,12 +10,12 @@ return [
         'text2' => 'Get in touch!',
 
         'contact1title' => 'MARKETING',
-        'contact1text' => 'Do you have any questions regarding marketing, partnerships, sponsorships, collaborations or press?',
+        'contact1text' => 'Do you have any questions regarding marketing, partnerships, sponsorships, collaborations or press',
 
         'contact2title' => 'SALES',
-        'contact2text' => 'Would you like to connect with our Coppa Cocktails sales department regarding business related questions?',
+        'contact2text' => 'Do you have a company and would you like to contact Coppa Cocktails about our products? Or are you already a customer and do you still have a question?',
 
-        'contact3title' => 'COSTUMER SUPPORT',
+        'contact3title' => 'CONSUMER AND OTHER QUESTIONS',
         'contact3text' => 'Do you have general inquiries about our products or services?',
 
         'btn' => 'SEND US A MESSAGE',

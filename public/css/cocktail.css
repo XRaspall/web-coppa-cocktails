@@ -41,23 +41,6 @@
     line-height: 32px;
 }
 
-.message-button {
-    font-size: 12px;
-    font-weight: 700;
-    color: #392a27;
-    letter-spacing: 1.71429px;
-    background-color: transparent;
-    border: 1px solid #392a27;
-    padding: 30px 35px;
-    border-radius: 20px 0 20px 0;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.message-button:hover {
-    background-color: #392a27;
-    color: #ffffff;
-}
 
 .cocktail-text-container b{
     margin-bottom: 1em;
@@ -119,24 +102,6 @@
 }
 
 .wheretobuy-button:hover {
-    background-color: #392a27;
-    color: #ffffff;
-}
-
-.message-button {
-    font-size: 12px;
-    font-weight: 700;
-    color: #392a27;
-    letter-spacing: 1.71429px;
-    background-color: transparent;
-    border: 1px solid #392a27;
-    padding: 15px 20px;
-    border-radius: 20px 0 20px 0;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.message-button:hover {
     background-color: #392a27;
     color: #ffffff;
 }
