@@ -1,31 +1,41 @@
 $(document).ready(function() {
-    var timeout;
 
-    $('.swiper-slide-cocktails').mouseenter(function() {
-        var $thisSlide = $(this);
-        var $imgs = $thisSlide.find('.appear1-carrusel, .appear2-carrusel, .appear3-carrusel, .appear4-carrusel');
+    function initializeSwiperEffects() {
+        var timeout;
 
-        console.log($thisSlide);
-        $imgs.addClass('d-none');
+        $('.swiper-slide-cocktails').mouseenter(function() {
+            var $thisSlide = $(this);
+            var $imgs = $thisSlide.find('.appear1-carrusel, .appear2-carrusel, .appear3-carrusel, .appear4-carrusel');
 
-        showSequentially($thisSlide, $imgs, 0);
-    });
+            $imgs.addClass('d-none');
 
-    $('.swiper-slide-cocktails').mouseleave(function() {
-        clearTimeout(timeout);
-        var $imgs = $(this).find('.appear1-carrusel, .appear2-carrusel, .appear3-carrusel, .appear4-carrusel');
-        $imgs.addClass('d-none');
-    });
+            showSequentially($thisSlide, $imgs, 0);
+        });
 
-    function showSequentially($slide, $elements, index) {
-        if (index < $elements.length) {
-            console.log($elements[index]);
+        $('.swiper-slide-cocktails').mouseleave(function() {
+            clearTimeout(timeout);
+            var $imgs = $(this).find('.appear1-carrusel, .appear2-carrusel, .appear3-carrusel, .appear4-carrusel');
+            $imgs.addClass('d-none');
+        });
 
-            $($elements[index]).removeClass('d-none').fadeIn(50, function() {
-                timeout = setTimeout(function() {
-                    showSequentially($slide, $elements, index + 1);
-                }, 50);
-            });
+        function showSequentially($slide, $elements, index) {
+            if (index < $elements.length) {
+                $($elements[index]).removeClass('d-none').fadeIn(50, function() {
+                    timeout = setTimeout(function() {
+                        showSequentially($slide, $elements, index + 1);
+                    }, 50);
+                });
+            }
         }
     }
+
+    if ($(window).width() > 575) {
+        initializeSwiperEffects();
+    }
+
+    $(window).resize(function() {
+        if ($(window).width() > 575) {
+            initializeSwiperEffects();
+        }
+    });
 });
