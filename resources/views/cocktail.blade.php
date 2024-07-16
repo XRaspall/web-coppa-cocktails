@@ -6,7 +6,7 @@
 
 @section('content')
     @include('cocktail.content')
-    @include('cocktail.slide')
+    @include('ourcocktails.slide')
 @endsection
 
 @section('scripts')

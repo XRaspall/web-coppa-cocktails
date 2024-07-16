@@ -14,6 +14,8 @@ class RouteController extends Controller
         $this->cocktailRepository = $cocktailRepository;
     }
     public function home(){
+        $cocktails = $this->cocktailRepository->all();
+
         $details = [
             'image' => 'img/contact/details.webp',
             'title_en' => 'Company Details',
@@ -47,7 +49,7 @@ class RouteController extends Controller
             'link2' => '/our-cocktails',
         ];
 
-        return view('home', compact('details'));
+        return view('home', compact('details','cocktails'));
     }
 
     public function contact(){
@@ -120,8 +122,9 @@ class RouteController extends Controller
 
     public function cocktail($url){
         $cocktail = $this->cocktailRepository->findByUrlWithRelations($url,['images']);
+        $cocktails = $this->cocktailRepository->all();
 
-        return view('cocktail',compact('cocktail'));
+        return view('cocktail',compact('cocktail','cocktails'));
     }
 
 }

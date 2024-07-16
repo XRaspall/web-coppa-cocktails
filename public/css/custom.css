@@ -54,12 +54,93 @@
     z-index: 9999;
 }
 
-
-
 .div-slideImages-controllers .swiper-button-prev:after,.div-slideImages-controllers .swiper-button-next:after {
     font-size: 25px;
 }
 
 .swiper-pagination-brown-line span.swiper-pagination-bullet-active{
     background-color:#392A27 ;
+}
+
+
+/* COCKTAILS */
+
+.cocktails-slide img.coppa-img{
+    width: 10em;
+    z-index: 4;
+    position: relative;
+}
+
+.cocktails-slide .swiper-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.cocktails-slide .swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 20px;
+}
+
+.cocktails-slide .swiper-button-next, .swiper-button-prev{
+    color: #392a27;
+}
+
+.cocktails-slide h3{
+    font-size: 32px;
+}
+
+.cocktails-slide .swiper-slide {
+    position: relative;
+}
+
+.cocktails-slide .center-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    text-decoration: none;
+    z-index: 9;
+}
+
+.cocktails-slide .center-button:hover {
+    background-color: #392a27;
+    color: #ffffff;
+}
+
+.cocktails-slide .swiper-slide:hover .center-button {
+    display: block;
+}
+
+/* HOVER EFECT CARROUSEL */
+
+.cocktails-slide .appear1-carrusel{
+    position: absolute;
+    top: -103px;
+    right: -58px;
+    z-index: 3;
+    width: 24em;
+}
+
+.cocktails-slide .appear2-carrusel{
+    position: absolute;
+    top: -103px;
+    right: -72px;
+    z-index: 3;
+    width: 24em;
+}
+
+.cocktails-slide .appear3-carrusel{
+    position: absolute;
+    top: -52px;
+    right: -58px;
+    z-index: 3;
+    width: 24em;
+}
+.cocktails-slide .appear4-carrusel{
+    position: absolute;
+    top: -45px;
+    right: -58px;
+    z-index: 3;
+    width: 24em;
 }

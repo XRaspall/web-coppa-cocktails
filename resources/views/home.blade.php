@@ -12,7 +12,7 @@
     @include('home.video')
     @include('home.slideCoppa')
     @include('home.slideImages')
-    @include('home.cocktailsSlide')
+    @include('ourcocktails.slide')
     @include('home.details')
 
 @endsection
