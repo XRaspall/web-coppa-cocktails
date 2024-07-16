@@ -5,6 +5,11 @@
     object-fit: cover;
 }
 
+.active-underline{
+    border-bottom: 1px solid #392a27;
+    padding-bottom: 8px;
+}
+
 .brightness07{
     filter: brightness(0.7);
 }

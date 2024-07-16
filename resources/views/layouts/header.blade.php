@@ -10,10 +10,10 @@
                     <a class="nav-link color-coppa-secondary ff-Montserrat" aria-current="page" href="#">{{ __('header.about_us') }}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link color-coppa-secondary ff-Montserrat" href="{{ route('ourCocktailsPage') }}">{{ __('header.our_cocktails') }}</a>
+                    <a class="nav-link color-coppa-secondary ff-Montserrat {{ request()->routeIs('ourCocktailsPage') ? 'active-underline' : '' }}" href="{{ route('ourCocktailsPage') }}">{{ __('header.our_cocktails') }}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link color-coppa-secondary ff-Montserrat" href="{{ route('contactPage') }}">{{ __('header.contact') }}</a>
+                    <a class="nav-link color-coppa-secondary ff-Montserrat {{ request()->routeIs('contactPage') ? 'active-underline' : '' }}" href="{{ route('contactPage') }}">{{ __('header.contact') }}</a>
                 </li>
             </ul>
         </div>
