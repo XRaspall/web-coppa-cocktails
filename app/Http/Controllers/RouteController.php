@@ -17,7 +17,7 @@ class RouteController extends Controller
         $cocktails = $this->cocktailRepository->all();
 
         $details = [
-            'image' => 'img/contact/details.webp',
+            'image' => 'img/details/details.webp',
             'title_en' => 'Company Details',
             'title_de' => 'Firmendetails',
             'title_en-us' => 'Company Details',
@@ -54,7 +54,7 @@ class RouteController extends Controller
 
     public function contact(){
         $details = [
-            'image' => 'img/contact/details.webp',
+            'image' => 'img/details/details.webp',
             'title_en' => 'Company Details',
             'title_de' => 'Firmendetails',
             'title_en-us' => 'Company Details',
@@ -92,7 +92,7 @@ class RouteController extends Controller
 
     public function ourCocktails(){
         $details = [
-            'image' => 'img/ourcocktails/details.webp',
+            'image' => 'img/details/details.webp',
             'title_en' => 'Thirsty for more?',
             'title_de' => 'Lust auf mehr?',
             'title_en-us' => 'Thirsty for more?',
@@ -125,6 +125,32 @@ class RouteController extends Controller
         $cocktails = $this->cocktailRepository->all();
 
         return view('cocktail',compact('cocktail','cocktails'));
+    }
+
+    public function aboutus(){
+
+        $details = [
+            'image' => 'img/details/details.webp',
+            'title_en' => 'Thirsty for more?',
+            'title_de' => 'Lust auf mehr?',
+            'title_en-us' => 'Thirsty for more?',
+            'text_en' => '
+                <p>Have a look at our complete range of delicious cocktails or explore buying options on our store locator.</p>
+            ',
+            'text_de' => '
+                <p>Entdecke die Einkaufsmöglichkeiten in unserem Shop Locator oder werde Mitglied der Coppa Cocktails Community und nimm Kontakt mit uns auf.</p>
+            ',
+            'text_en-us' => '
+                <p>Have a look at our complete range of delicious cocktails or explore buying options on our store locator.</p>
+            ',
+            'text1_en' => 'EXPLORE COCKTAILS',
+            'text1_de' => 'COCKTAILS ENTDECKEN',
+            'text1_en-us' => 'EXPLORE COCKTAILS',
+            'link1' => '/our-cocktails',
+
+        ];
+
+        return view('aboutus',compact('details'));
     }
 
 }
