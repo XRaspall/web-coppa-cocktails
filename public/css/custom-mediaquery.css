@@ -38,7 +38,28 @@
         width: 70px;
     }
 
+    #carouselReadyToDrink .carousel-controls {
+        left: 20px;
+    }
 
+    .accordion h3.active {
+        font-size: 34px;
+    }
+
+    #readyToDrink .translate-middle{
+        top: 45%;
+    }
+
+    #readyToDrink .translate-middle img{
+        height: 9em;
+    }
+    #carouselOurCulture img {
+        height: 20em;
+        object-fit: cover;
+    }
+    .section-slideImage .swiper-slide img.h-8em-custom {
+        height: 11em;
+    }
 
 }
 

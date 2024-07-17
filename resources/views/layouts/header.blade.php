@@ -7,7 +7,7 @@
         <div class="collapse navbar-collapse justify-content-center">
             <ul class="navbar-nav text-white">
                 <li class="nav-item">
-                    <a class="nav-link color-coppa-secondary ff-Montserrat" aria-current="page" href="#">{{ __('header.about_us') }}</a>
+                    <a class="nav-link color-coppa-secondary ff-Montserrat" aria-current="page" href="{{ route('aboutusPage') }}">{{ __('header.about_us') }}</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link color-coppa-secondary ff-Montserrat" href="{{ route('ourCocktailsPage') }}">{{ __('header.our_cocktails') }}</a>

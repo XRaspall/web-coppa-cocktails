@@ -29,7 +29,6 @@
                         <div class="d-flex flex-column ff-Montserrat color-coppa-primary">
                             {!! $cocktail->text1_en !!}
                         </div>
-                        <a href="https://www.coppacocktails.com/store-locator" target="_blank"><button class="wheretobuy-button ff-Montserrat">WHERE TO BUY</button></a>
                         <div class="d-flex flex-column ff-Montserrat color-coppa-primary mt-5">
                             {!! $cocktail->text2_en !!}
                         </div>
