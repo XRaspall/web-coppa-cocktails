@@ -22,9 +22,9 @@
         <div class="col-md-4 d-flex justify-content-center">
             <div class="links-container">
                 <ul class="list-unstyled">
-                    <li><a href="{{ route('home') }}" class="text-decoration-none ff-Montserrat">{{ __('footer.website_terms') }}</a></li>
-                    <li><a href="{{ route('home') }}" class="text-decoration-none ff-Montserrat">{{ __('footer.privacy') }}</a></li>
-                    <li><a href="{{ route('home') }}" class="text-decoration-none ff-Montserrat">{{ __('footer.general_terms') }}</a></li>
+                    <li><a href="{{ route('websiteterms') }}" class="text-decoration-none ff-Montserrat">{{ __('footer.website_terms') }}</a></li>
+                    <li><a href="{{ route('privacity') }}" class="text-decoration-none ff-Montserrat">{{ __('footer.privacy') }}</a></li>
+                    <li><a href="{{ route('generalterms') }}" class="text-decoration-none ff-Montserrat">{{ __('footer.general_terms') }}</a></li>
                     <li class="mt-3 text-decoration-none ff-Montserrat">{{ __('footer.advice') }}</li>
                     <li class="mt-3">
                         <a class="me-2" href="https://www.instagram.com/coppacocktails/" target="_blank"><img src="{{ asset('img/icons/instagram.svg') }}" alt="Instagram" class="" width="20"></a>

@@ -1,0 +1,77 @@
+/* BANNER */
+
+.banner-legal {
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-legal::before,
+.banner-legal::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 30vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.banner-legal::before {
+    left: 0;
+    background-image: url('../img/contact/leafs-left.webp');
+}
+
+.banner-legal::after {
+    right: 0;
+    background-image: url('../img/legal/leafs-right.webp');
+}
+
+.banner-legal div.center-banner-div h2{
+    font-size: 70px;
+    line-height: 73px;
+    letter-spacing: -2.5px;
+    color: #FFFFFF;
+}
+.banner-legal div.center-banner-div h1{
+     font-size: 100px;
+     line-height: 80px;
+}
+
+.banner-legal div.center-banner-div p strong{
+    font-family: Montserrat, serif;
+    font-size: 1.125rem;
+    line-height: 32px;
+    text-transform: uppercase;
+    letter-spacing: 2.57px;
+}
+
+.banner-legal div.bottom-banner-div p{
+    width: 100%;
+    color: #F8F7F3;
+    letter-spacing: 2.57px;
+    font-weight: normal;
+
+}
+
+/* CONTENT */
+
+.legal-section{
+    background-color: #F8F7F3;
+}
+
+.legal-section h3{
+    color: #392A27;
+    transform: translate(0px, 0px);
+    opacity: 1;
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 16px;
+}
+
+.legal-section p{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 32px;
+    color: #392A27;
+}

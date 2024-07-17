@@ -112,7 +112,7 @@ class RouteController extends Controller
             'text2_en' => 'CONTACT US',
             'text2_de' => 'KONTAKT',
             'text2_en-us' => 'CONTACT US',
-            'link2' => '/contacto',
+            'link2' => '/contact-coppa-cocktails',
         ];
 
         $cocktails = $this->cocktailRepository->all();
@@ -153,4 +153,104 @@ class RouteController extends Controller
         return view('aboutus',compact('details'));
     }
 
+    // LEGAL
+
+    public function privacity(){
+        $details = [
+            'image' => 'img/contact/details.webp',
+            'title_en' => 'What\'s on your mind?',
+            'title_de' => 'Was hast du im Kopf?',
+            'title_en-us' => 'What\'s on your mind?',
+            'text_en' => '
+                <p>We would love to hear from you. Send us your questions and we’ll get back to you shortly.</p>
+            ',
+            'text_de' => '
+                <p>Wir würden uns freuen, von Ihnen zu hören. Senden Sie uns Ihre Fragen und wir werden uns in Kürze bei Ihnen melden.</p>
+            ',
+            'text_en-us' => '
+                <p>We would love to hear from you. Send us your questions and we’ll get back to you shortly.</p>
+            ',
+            'text1_en' => 'GET IN TOUCH',
+            'text1_de' => 'IN KONTAKT KOMMEN',
+            'text1_en-us' => 'GET IN TOUCH',
+            'link1' => '/contact-coppa-cocktails',
+            'text2_en' => 'HOME',
+            'text2_de' => 'HEIM',
+            'text2_en-us' => 'HOME',
+            'link2' => '/',
+        ];
+
+        $header_subtitle = __('legal.privacity.header_subtitle');
+        $header_title = __('legal.privacity.header_title');
+        $legalTitle = __('legal.privacity.title');
+        $legalText = __('legal.privacity.text');
+
+        return view('legal.legal', compact('details','header_subtitle','header_title','legalTitle','legalText'));
+    }
+    public function websiteterms(){
+        $details = [
+            'image' => 'img/contact/details.webp',
+            'title_en' => 'What\'s on your mind?',
+            'title_de' => 'Was hast du im Kopf?',
+            'title_en-us' => 'What\'s on your mind?',
+            'text_en' => '
+                <p>We would love to hear from you. Send us your questions and we’ll get back to you shortly.</p>
+            ',
+            'text_de' => '
+                <p>Wir würden uns freuen, von Ihnen zu hören. Senden Sie uns Ihre Fragen und wir werden uns in Kürze bei Ihnen melden.</p>
+            ',
+            'text_en-us' => '
+                <p>We would love to hear from you. Send us your questions and we’ll get back to you shortly.</p>
+            ',
+            'text1_en' => 'GET IN TOUCH',
+            'text1_de' => 'IN KONTAKT KOMMEN',
+            'text1_en-us' => 'GET IN TOUCH',
+            'link1' => '/contact-coppa-cocktails',
+            'text2_en' => 'HOME',
+            'text2_de' => 'HEIM',
+            'text2_en-us' => 'HOME',
+            'link2' => '/',
+        ];
+
+        $header_subtitle = __('legal.websiteterms.header_subtitle');
+        $header_title = __('legal.websiteterms.header_title');
+        $legalTitle = __('legal.websiteterms.title');
+        $legalText = __('legal.websiteterms.text');
+
+        return view('legal.legal', compact('details','header_subtitle','header_title','legalTitle','legalText'));
+    }
+
+    public function generalterms()
+    {
+        $details = [
+            'image' => 'img/contact/details.webp',
+            'title_en' => 'What\'s on your mind?',
+            'title_de' => 'Was hast du im Kopf?',
+            'title_en-us' => 'What\'s on your mind?',
+            'text_en' => '
+                <p>We would love to hear from you. Send us your questions and we’ll get back to you shortly.</p>
+            ',
+            'text_de' => '
+                <p>Wir würden uns freuen, von Ihnen zu hören. Senden Sie uns Ihre Fragen und wir werden uns in Kürze bei Ihnen melden.</p>
+            ',
+            'text_en-us' => '
+                <p>We would love to hear from you. Send us your questions and we’ll get back to you shortly.</p>
+            ',
+            'text1_en' => 'GET IN TOUCH',
+            'text1_de' => 'IN KONTAKT KOMMEN',
+            'text1_en-us' => 'GET IN TOUCH',
+            'link1' => '/contact-coppa-cocktails',
+            'text2_en' => 'HOME',
+            'text2_de' => 'HEIM',
+            'text2_en-us' => 'HOME',
+            'link2' => '/',
+        ];
+
+        $header_subtitle = __('legal.generalterms.header_subtitle');
+        $header_title = __('legal.generalterms.header_title');
+        $legalTitle = __('legal.generalterms.title');
+        $legalText = __('legal.generalterms.text');
+
+        return view('legal.legal', compact('details', 'header_subtitle', 'header_title', 'legalTitle', 'legalText'));
+    }
 }
