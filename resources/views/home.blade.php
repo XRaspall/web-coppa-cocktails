@@ -10,7 +10,7 @@
     @include('home.banner')
     @include('home.info')
     @include('home.video')
-    @include('home.slideCoppa')
+    @include('home.slideCocktail')
     @include('home.slideImages')
     @include('ourcocktails.slide')
     @include('home.details')
