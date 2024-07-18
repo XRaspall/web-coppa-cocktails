@@ -104,6 +104,87 @@ class CocktailsSeeder extends Seeder
             'amaretto-sour',
         ];
 
+        $category_en = [
+            'CATEGORY / REFRESHING',
+            'CATEGORY / SWEET & FRUITY',
+            'CATEGORY / FRUITY & REFRESHING',
+            'CATEGORY / SWEET & FRUITY',
+            'CATEGORY / SWEET & SOUR',
+            'CATEGORY / REFRESHING',
+            'CATEGORY / SWEET & SOUR',
+            'CATEGORY / FRUITY & REFRESHING',
+            'CATEGORY / SWEET & SOUR',
+            'CATEGORY / SWEET & REFRESHING',
+            'CATEGORY / BOLD & SWEET',
+            'CATEGORY / BOLD & BITTER',
+            'CATEGORY / BOLD & REFRESHING',
+            'CATEGORY / BOLD & REFRESHING',
+            'CATEGORY / SWEET & SOUR',
+        ];
+
+
+        $textSlideCocktail_en = [
+            "
+                <p>The world-famous Mojito takes you on a Caribbean-tasting adventure down the streets of Havana. The rich flavor of the Caribbean rum mixed with the breezy notes of mint and lime makes for a perfectly refreshing cocktail.</p>
+                <p>Made with natural flavors and premium ingredients, the Coppa Cocktails Mojito is best enjoyed with crushed ice and in the company of great friends.</p>
+            ",
+            "
+                <p>The Coppa Cocktails Piña Colada reminds you of a tropical getaway. The sweet flavors of pineapple juice, and the smooth, rich texture of coconut cream poured over crushed ice, becomes the ideal summer cocktail treat.</p>
+                <p>Made with rum, natural flavors and premium ingredients, the Coppa Cocktails Piña Colada is best enjoyed on a sun-drenched beach in the company of friends.</p>
+            ",
+            "
+                <p>The Coppa Strawberry Daiquiri is an irresistibly sweet, fresh and fruity cocktail, that matches summer to a tee and tickles your taste buds. Perfectly refreshing for summer days by the pool or for looking forward to that breezy beach vacation we both know you deserve.</p>
+                <p>Made with premium rum, fresh strawberries and refreshing lime, this Strawberry Daquiri becomes any sun lovers cocktail favorite.</p>
+            ",
+            "
+                <p>The Coppa Cocktails Sex on the Beach is a fruity, sweet and cheeky cocktail treat. Unsurprisingly a perfect cocktail to sip on at the beach or during a relaxed get-together with friends. Made with vodka, peach schnapps, orange, pineapple and cranberry juice, the Sex on the Beach is pure sunshine in a bottle.</p>
+                <p>Sippable summers, love and all-night celebrations in one great tasting cocktail.</p>
+            ",
+            "
+                <p>Step right into the vibrant world of Tiki cocktails with our Coppa Cocktails Mai Tai. Made with rich rum, sweet orange juice and refreshing lime juice our Coppa Cocktails Mai Tai welcomes you to broaden your senses and enjoy a natural flavor experience inspired by the warm tiki culture and its people.</p>
+                <p>Celebrate life, love and friends with this Coppa Cocktails favorite, on ice and in great company.</p>
+            ",
+            "
+                <p>The Margarita is one of the most popular cocktails on the planet, perfect for any sizzling summer day or happy get together. Made with premium tequila, liquor, delicious lime and natural flavors, this refreshing cocktail becomes your go-to-drink for any party made easy.</p>
+                <p>With breezy citric notes, the Coppa Cocktails Margarita turns you into the perfect host and any occasion into a celebration.</p>
+            ",
+            "
+                <p>If you are looking to make a sophisticated statement, the Cosmopolitan is your cocktail of choice. Its sweet orange flavor and fresh lime juice combined with the Cosmopolitans signature lush pink color makes this a picture-perfect cocktail that oozes celebration.</p>
+                <p>Made with vodka, natural flavors and premium ingredients. The Coppa Cocktails Cosmopolitan is best enjoyed on a buzzling rooftop or at a home- bar surrounded by friends.</p>
+            ",
+            "
+                <p>The Tequila Sunrise is a popular cocktail among party goers worldwide. This fruity cocktail favorite, with roots in the rock 'n roll scene, has likely seen more sunrises than most of our Coppa cocktails.</p>
+                <p>Using the best ingredients, premium blanco tequila and the sweet taste of orange, the Coppa Cocktails Tequila Sunrise transforms any celebration into a party and you into its ultimate host.</p>
+            ",
+            "
+                <p>The Coppa Cocktails Passion Fruit Martini is a fun and chic attention grabber. The freshness of the lime juice and the sweetness of the passion fruit blended with the subtle notes of premium vodka makes this an irresistible cocktail treat.</p>
+                <p>Dream of fancy hotel bars and buzzling rooftops with our Coppa cocktails Passion Fruit Martini. Stylish sipping made easy.</p>
+            ",
+            "
+                <p>The Long Island Iced Tea is a refreshing crowd-pleaser, sipped on porches and parties worldwide. Made with a careful selection of white spirits and natural flavors, this sweet cocktail becomes irresistible when served on ice and topped off with Cola.</p>
+                <p>With a subtle punch and fresh citric notes, the Coppa Cocktails Long Island Iced Tea makes summer sipping simple and delicious.</p>
+            ",
+            "
+                <p>The Espresso Martini is a rich, indulgent and smooth cocktail. The sumptuous mix of vodka, cold brew coffee and coffee liqueur has become the staple of any dining experience, giving cocktail lovers a delicious and very sippable dessert option to continue the celebration.</p>
+                <p>The Coppa Cocktails Espresso Martini is made with natural flavors, introducing vodka and espresso notes as the perfect additions to your party.</p>
+            ",
+            "
+                <p>The Coppa Cocktails Negroni is the ultimate Italian aperitif. Its fruity aromas and herb flavors create a complex and bold cocktail, perfect for the start of an evening of celebration surrounded by friends and family. Traditionally made with gin, vermouth, liqueur and natural flavors, the Negroni gives a new, bolder meaning to simple sipping.</p>
+                <p>Just add ice and great company to enjoy that perfect cocktail experience.</p>
+            ",
+            "
+                <p>Rum & Ginger is a delicious and versatile favorite, sipped on patios and parties worldwide. This flavorful cocktail is served as an aperitif, summer refreshment or afternoon and dinner drink, perfect for spontaneous celebrations.</p>
+                <p>Made with rich rum and zesty ginger, the Coppa Cocktails Rum & Ginger will kick start any conversation. Celebrating life, love and friends has never been easier, just add ice.</p>
+            ",
+            "
+                <p>The Whiskey Sour is an iconic cocktail that paved the way for many contemporary cocktail favorites through out the history of mixology.</p>
+                <p>Made with the best Kentucky straight bourbon whiskey aged in barrels for three years, and blended with syrup, rum and natural flavors. The Coppa Cocktails Whiskey Sour Cocktail brings a sophisticated censorial treat to any festive celebration.</p>
+            ",
+            "
+                <p>The Amaretto Sour will sweep you off your feet with its beautiful balance of almonds, and lime juice. A modern cocktail classic from Italy that embodies the bittersweet taste of those last summer days.</p>
+                <p>With a delicious sweetness and a brisk sour cue, the Coppa Cocktails Amaretto Sour indulges your cocktail curiosity, making it the perfect choice for any celebration.</p>
+            ",
+        ];
 
 
         for ($i = 0; $i < count($names); $i++) {
@@ -121,6 +202,13 @@ class CocktailsSeeder extends Seeder
                 'appear2' => 'storage/cocktails/' . $i + 1 . '/images/appear2.webp',
                 'appear3' => 'storage/cocktails/' . $i + 1 . '/images/appear3.webp',
                 'appear4' => 'storage/cocktails/' . $i + 1 . '/images/appear4.webp',
+                'category_en' => $category_en[$i],
+                'category_de' => '',
+                'category_en-us' => '',
+                'imgSlideCocktail' => 'storage/cocktails/' . $i + 1 . '/images/imgSlideCocktail.webp',
+                'textSlideCocktail_en' => $textSlideCocktail_en[$i],
+                'textSlideCocktail_de' => '',
+                'textSlideCocktail_en-us' => '',
             ]);
 
             for ($j = 1; $j <= 6; $j++) {

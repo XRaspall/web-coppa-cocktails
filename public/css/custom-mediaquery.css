@@ -128,6 +128,11 @@
         right: -16em;
     }
 
+    .bg-phone-section-slideCocktail img{
+        width: 17em;
+        display: flex;
+        margin: auto;
+    }
 
 }
 

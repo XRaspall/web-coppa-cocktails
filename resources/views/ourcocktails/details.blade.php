@@ -1,7 +1,7 @@
 <section class="section py-5 details-container" style="background-image: url( {{ asset('img/contact/bg-details.webp') }}); background-repeat: no-repeat; background-size: cover">
     <div class="container py-5">
         <div class="row w-100">
-            <div class="col-12 col-md-4 d-flex align-items-center">
+            <div class="col-12 col-md-4 d-flex align-items-center justify-content-center">
                 <div class="">
                     <h2 class="animate-on-scroll color-coppa-primary ff-BarlowCondensedMedium fw-bolder" data-animation="animate__fadeInUp">{{ $details['title_' . app()->getLocale()] }}</h2>
                     <div class="animate-on-scroll d-flex flex-column my-3 ff-Montserrat" data-animation="animate__fadeInUp">{!! $details['text_' . app()->getLocale()] !!}</div>

@@ -16,15 +16,15 @@ return new class extends Migration
             $table->text('name')->nullable();
             $table->text('text1_en')->nullable();
             $table->text('text1_de')->nullable();
-            $table->text('text1_us')->nullable();
+            $table->text('text1_en-us')->nullable();
             $table->text('imgroute')->nullable();
             $table->text('alt')->nullable();
             $table->text('text2_en')->nullable();
             $table->text('text2_de')->nullable();
-            $table->text('text2_us')->nullable();
+            $table->text('text2_en-us')->nullable();
             $table->text('text3_en')->nullable();
             $table->text('text3_de')->nullable();
-            $table->text('text3_us')->nullable();
+            $table->text('text3_en-us')->nullable();
             $table->text('video')->nullable();
             $table->text('link')->nullable();
             $table->text('originalImage')->nullable();
@@ -32,6 +32,13 @@ return new class extends Migration
             $table->text('appear2')->nullable();
             $table->text('appear3')->nullable();
             $table->text('appear4')->nullable();
+            $table->text('category_en')->nullable();
+            $table->text('category_de')->nullable();
+            $table->text('category_en-us')->nullable();
+            $table->text('imgSlideCocktail')->nullable();
+            $table->text('textSlideCocktail_en')->nullable();
+            $table->text('textSlideCocktail_de')->nullable();
+            $table->text('textSlideCocktail_en-us')->nullable();
             $table->timestamps();
         });
     }
