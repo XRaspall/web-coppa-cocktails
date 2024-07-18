@@ -1,5 +1,8 @@
 @extends('layouts.app')
 
+@section('title', 'Our Cocktails' )
+@section('description', '')
+
 @section('styles')
     <link rel="stylesheet" href="{{ asset('css/ourcocktails.css?version='.config('app.version')) }}"/>
 @endsection

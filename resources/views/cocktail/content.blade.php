@@ -32,7 +32,7 @@
                         <div class="d-flex flex-column ff-Montserrat color-coppa-primary mt-5">
                             {!! $cocktail->text2_en !!}
                         </div>
-                        <div class="d-flex mt-5">
+                        <div class="d-flex mt-5 volume-values-container">
                             <button class="option-button ff-BarlowCondensedSemiBold">0.7L</button>
                             <button class="option-button ff-BarlowCondensedSemiBold">100ML</button>
                         </div>
@@ -85,8 +85,8 @@
                     {!! $cocktail->text2_en !!}
                 </div>
 
-                <div class="d-flex mt-5">
-                    <button class="option-button ff-BarlowCondensedSemiBold">0.7L</button>
+                <div class="d-flex mt-5 volume-values-container">
+                    <button class="option-button ff-BarlowCondensedSemiBold active">0.7L</button>
                     <button class="option-button ff-BarlowCondensedSemiBold">100ML</button>
                 </div>
                 <div class="d-flex flex-column ff-Montserrat color-coppa-primary my-5">

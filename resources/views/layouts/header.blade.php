@@ -64,11 +64,11 @@
         </div>
 
         <div class="text-secondary ff-Montserrat p-3 options-menu-div-phone">
-            <a class="text-decoration-none color-coppa-secondary">{{ __('header.about_us') }}</a>
+            <a class="text-decoration-none color-coppa-secondary" href="{{ route('aboutusPage') }}">{{ __('header.about_us') }}</a>
             <hr class="color-coppa-secondary">
-            <a class="text-decoration-none color-coppa-secondary">{{ __('header.our_cocktails') }}</a>
+            <a class="text-decoration-none color-coppa-secondary" href="{{ route('ourCocktailsPage') }}">{{ __('header.our_cocktails') }}</a>
             <hr class="color-coppa-secondary">
-            <a class="text-decoration-none color-coppa-secondary">{{ __('header.contact') }}</a>
+            <a class="text-decoration-none color-coppa-secondary" href="{{ route('contactPage') }}">{{ __('header.contact') }}</a>
             <hr class="color-coppa-secondary">
         </div>
 

@@ -10,7 +10,7 @@
             </div>
 
             <div>
-                <h2 class="color-coppa-primary ff-BarlowCondensedSemiBold">STAY REFRESHED #CoppaCocktails</h2>
+                <h2 class="color-coppa-primary ff-BarlowCondensedSemiBold animate-on-scroll" data-animation="animate__fadeInUp">STAY REFRESHED #CoppaCocktails</h2>
             </div>
 
             <div class="text-center">
@@ -50,7 +50,7 @@
             </div>
         </div>
 
-        <div class="section-slideImage">
+        <div class="section-slideImage animate-on-scroll" data-animation="animate__fadeInUp">
 
 
             <a class="text-decoration-none" target="_blank" href="https://www.instagram.com/coppacocktails_us/">

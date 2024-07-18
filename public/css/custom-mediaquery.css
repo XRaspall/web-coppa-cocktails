@@ -91,6 +91,27 @@
         font-size: 40px;
     }
 
+    .banner-contact div.center-banner-div h2{
+        font-size: 50px;
+        line-height: 46px;
+    }
+
+    .banner-contact{
+        height: 75vh;
+    }
+
+    .banner-contact::before, .banner-contact::after {
+        width: 126vw;
+    }
+
+    .banner-contact::before {
+        left: -16em;
+    }
+
+    .banner-contact::after {
+        right: -16em;
+    }
+
 
 }
 

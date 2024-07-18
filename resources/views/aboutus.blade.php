@@ -1,5 +1,8 @@
 @extends('layouts.app')
 
+@section('title', 'About Coppa Cocktails' )
+@section('description', '')
+
 @section('styles')
     <link rel="stylesheet" href="{{ asset('css/aboutus.css?version='.config('app.version')) }}"/>
 @endsection

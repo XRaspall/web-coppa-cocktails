@@ -9,24 +9,23 @@
                 <h1 class="color-coppa-primary ff-BarlowCondensedMedium">{{ __('contact.info.contact1title') }}</h1>
                 <p class="ff-Montserrat color-coppa-primary mb-5">{{ __('contact.info.contact1text') }}</p>
                 <a class="ff-Montserrat color-coppa-primary fw-bold text-decoration-none mb-5" href="mailto:marketing@coppacocktails.com">marketing@coppacocktails.com</a>
-                <a class=""><button class="message-button ff-Montserrat" data-toggle="modal" data-target="#exampleModalCenter">{{ __('contact.info.btn') }}</button></a>
+                <a class=""><button class="message-button ff-Montserrat open-send-message" data-toggle="modal" data-target="#exampleModalCenter" data-email="marketing">{{ __('contact.info.btn') }}</button></a>
             </div>
             <div class="col-12 col-md-6 pb-5 d-flex flex-column animate-on-scroll" data-animation="animate__slideInUp">
                 <h1 class="color-coppa-primary ff-BarlowCondensedMedium">{{ __('contact.info.contact2title') }}</h1>
                 <p class="ff-Montserrat color-coppa-primary mb-5">{{ __('contact.info.contact2text') }}</p>
                 <a class="ff-Montserrat color-coppa-primary fw-bold text-decoration-none mb-5" href="mailto:sales@coppacocktails.com">sales@coppacocktails.com</a>
-                <a class=""><button class="message-button ff-Montserrat" data-toggle="modal" data-target="#exampleModalCenter">{{ __('contact.info.btn') }}</button></a>
+                <a class=""><button class="message-button ff-Montserrat open-send-message" data-toggle="modal" data-target="#exampleModalCenter" data-email="sales">{{ __('contact.info.btn') }}</button></a>
             </div>
             <div class="col-12 col-md-6 pt-5 d-flex flex-column animate-on-scroll" data-animation="animate__slideInUp">
                 <h1 class="color-coppa-primary ff-BarlowCondensedMedium">{{ __('contact.info.contact3title') }}</h1>
                 <p class="ff-Montserrat color-coppa-primary mb-5">{{ __('contact.info.contact3text') }}</p>
                 <a class="ff-Montserrat color-coppa-primary fw-bold text-decoration-none mb-5" href="mailto:info@coppacocktails.com">info@coppacocktails.com</a>
-                <a class=""><button class="message-button ff-Montserrat" data-toggle="modal" data-target="#exampleModalCenter">{{ __('contact.info.btn') }}</button></a>
+                <a class=""><button class="message-button ff-Montserrat open-send-message" data-toggle="modal" data-target="#exampleModalCenter" data-email="info">{{ __('contact.info.btn') }}</button></a>
             </div>
         </div>
     </div>
 </section>
-
 
 <div class="modal fade position-fixed align-content-center" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="container d-flex justify-content-center">
@@ -45,37 +44,38 @@
                 <div class="px-0 px-md-5 pb-5 mt-form-custom">
                     <div class="text-center">
                         <h5 class="modal-title ff-BarlowCondensedSemiBold">{{ __('contact.info.modal.title') }}</h5>
-
                     </div>
-                    <form class="mx-3 mx-md-5 pt-4">
+                    <form class="mx-3 mx-md-5 pt-4" action="{{ route('contactSendName') }}" method="post">
+                        @csrf
+                        <input type="hidden" id="contactEmail" name="contactEmail" value="">
                         <div class="row my-3">
                             <div class="col-12 col-md-6 form-group">
-                                <label for="firstName" class="ff-Montserrat">{{ __('contact.info.modal.label1') }}</label>
-                                <input type="text" class="form-control ff-Montserrat" id="firstName" required>
+                                <label class="ff-Montserrat">{{ __('contact.info.modal.label1') }}</label>
+                                <input type="text" class="form-control ff-Montserrat" name="name" required>
                             </div>
                             <div class="col-12 col-md-6 form-group">
-                                <label for="lastName" class="ff-Montserrat">{{ __('contact.info.modal.label2') }}</label>
-                                <input type="text" class="form-control ff-Montserrat" id="lastName" required>
+                                <label class="ff-Montserrat">{{ __('contact.info.modal.label2') }}</label>
+                                <input type="text" class="form-control ff-Montserrat" name="surnames" required>
                             </div>
                             <div class="col-12 form-group my-3">
                                 <label for="email" class="ff-Montserrat">{{ __('contact.info.modal.label3') }}</label>
-                                <input type="email" class="form-control ff-Montserrat" id="email" required>
+                                <input type="email" class="form-control ff-Montserrat" name="email" required>
                             </div>
                             <div class="col-12 form-group my-3">
-                                <label for="companyName" class="ff-Montserrat">{{ __('contact.info.modal.label4') }}</label>
-                                <input type="text" class="form-control ff-Montserrat" id="companyName">
+                                <label class="ff-Montserrat">{{ __('contact.info.modal.label4') }}</label>
+                                <input type="text" class="form-control ff-Montserrat" name="company">
                             </div>
                             <div class="col-12 form-group my-3">
-                                <label for="countryRegion" class="ff-Montserrat">{{ __('contact.info.modal.label5') }}</label>
-                                <input type="text" class="form-control ff-Montserrat" id="countryRegion">
+                                <label class="ff-Montserrat">{{ __('contact.info.modal.label5') }}</label>
+                                <input type="text" class="form-control ff-Montserrat" name="country">
                             </div>
                             <div class="col-12 form-group my-3">
-                                <label for="mobilePhoneNumber" class="ff-Montserrat">{{ __('contact.info.modal.label6') }}</label>
-                                <input type="text" class="form-control ff-Montserrat" id="mobilePhoneNumber">
+                                <label class="ff-Montserrat">{{ __('contact.info.modal.label6') }}</label>
+                                <input type="text" class="form-control ff-Montserrat" name="phone">
                             </div>
                             <div class="col-12 form-group my-4">
-                                <label for="message" class="ff-Montserrat">{{ __('contact.info.modal.label7') }}</label>
-                                <textarea class="form-control ff-Montserrat" id="message" rows="7"></textarea>
+                                <label class="ff-Montserrat">{{ __('contact.info.modal.label7') }}</label>
+                                <textarea class="form-control ff-Montserrat" name="message" rows="7"></textarea>
                             </div>
                         </div>
                         <div class="d-flex justify-content-end">
@@ -88,7 +88,6 @@
                                     <a href="#" class="cancel-button ff-Montserrat" data-dismiss="modal">{{ __('contact.info.modal.cancel') }}</a>
                                 </div>
                             </div>
-
                         </div>
                     </form>
                 </div>
@@ -97,5 +96,11 @@
     </div>
 </div>
 
-
-
+<script>
+    $(document).ready(function() {
+        $('.open-send-message').click(function() {
+            var email = $(this).data('email');
+            $('input[name="contactEmail"]').val(email);
+        });
+    });
+</script>

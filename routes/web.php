@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\RouteController;
 use Illuminate\Support\Facades\Route;
 
@@ -27,6 +28,8 @@ Route::get('/cocktails/{url}', [RouteController::class, 'cocktail']);
 Route::get('/privacy-statement', [RouteController::class, 'privacity'])->name('privacity');
 Route::get('/terms-conditions-coppa-cocktails', [RouteController::class, 'websiteterms'])->name('websiteterms');
 Route::get('/general-terms-and-conditions-of-sale-and-delivery', [RouteController::class, 'generalterms'])->name('generalterms');
+
+Route::post('/contact-send', [ContactController::class, 'contactmail'])->name('contactSendName');
 
 
 // LANG ROUTES
