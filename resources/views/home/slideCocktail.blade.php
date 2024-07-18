@@ -3,9 +3,8 @@
         margin: 0;
         padding: 0;
         width: 100%;
-        height: 80vh;
+        height: 90vh;
         overflow: hidden;
-        background-color: #F9F8F5;
     }
 
     .section-slideCocktails .swiper-container {
@@ -27,11 +26,12 @@
     }
 
     .row-container-swiper-slideCocktail{
-        height: 80vh;
+        height: 90vh;
     }
 
     .filter-brightness-slideCocktail{
         filter: brightness(0.5);
+        user-select: none;
     }
 
     .bg-div-secondary-slideCocktail-img{
@@ -54,11 +54,11 @@
     }
 
     .section-slideCocktails p{
-             font-size: 16px;
-             font-style: normal;
-             font-weight: 400;
-             line-height: 32px;
-             color: #392A27;
+         font-size: 16px;
+         font-style: normal;
+         font-weight: 400;
+         line-height: 32px;
+         color: #392A27;
     }
 
     .section-slideCocktails small{
@@ -76,56 +76,96 @@
         padding: 1rem 9rem ;
     }
 
+    .section-slideCocktails .bg-div-primary-slideCocktail-img{
+         background-color: #F6F4EF;
+     }
+
+    .section-slideCocktails .bg-div-primary-slideCocktail-img img{
+        z-index: 99;
+
+    }
+
+    .section-slideCocktails .background-text{
+        color: #392A27;
+        font-size: 160px;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: -4px;
+        line-height: 192px;
+        opacity: .1;
+        position: absolute;
+        text-transform: uppercase;
+        top: 140px;
+        left: 89px;
+        white-space: nowrap;
+    }
+
+    .swiper-button-prev-slideCocktail{
+        top: 80px;
+        right: 30%;
+        left: unset;
+        background: #F6F4EF;
+        width: 63px;
+        height: 121px;
+        color: #000000;
+    }
+
+    .swiper-button-next-slideCocktail{
+        top: 200px;
+        right: 30%;
+        left: unset;
+        background: #F6F4EF;
+        width: 63px;
+        height: 121px;
+        color: #000000;
+    }
+
+    .swiper-button-next-slideCocktail:after, .swiper-button-prev-slideCocktail:after{
+        font-size: 23px;
+        font-weight: 500;
+    }
+
 </style>
 
-<section>
+{{-- PC --}}
+
+<section class="d-none d-xxl-block">
     <div class="section-slideCocktails">
         <div class="swiper-container swiper-container-slideCocktail">
             <div class="swiper-wrapper height-slideImage-carrusel">
-                <div class="swiper-slide p-0 bg-transparent animate__animated animate__fadeInRight">
-                    <div class="row w-100 row-container-swiper-slideCocktail">
-                        <div class="col-8 p-0">
-                            <div class="bg-div-primary-slideCocktail-img d-flex">
-                                <div class="div-content-info-slideCocktail align-content-center">
-                                    <small class="ff-Montserrat">CATEGORY / REFRESHING</small>
-                                    <h3 class="ff-BarlowCondensedSemiBold">Mojito</h3>
-                                    <p class="ff-Montserrat">The world-famous Mojito takes you on a Caribbean-tasting adventure down the streets of Havana. The rich flavor of the Caribbean rum mixed with the breezy notes of mint and lime makes for a perfectly refreshing cocktail.</p>
-                                    <p class="ff-Montserrat">Made with natural flavors and premium ingredients, the Coppa Cocktails Mojito is best enjoyed with crushed ice and in the company of great friends.</p>
-                                    <a class=""><button class="message-button ff-Montserrat" data-toggle="modal" data-target="#exampleModalCenter">EXPLORE FLAVOR</button></a>
 
+                @foreach($cocktails as $key => $cocktSlide)
+
+                    <div class="swiper-slide p-0 bg-transparent">
+                        <div class="row w-100 row-container-swiper-slideCocktail">
+                            <div class="col-8 p-0">
+                                <div class="bg-div-primary-slideCocktail-img d-flex h-100">
+                                    <div class="div-content-info-slideCocktail align-content-center">
+                                        <small class="ff-Montserrat">{{ $cocktSlide['category_' . app()->getLocale()] }}</small>
+                                        <div class="background-text ff-BarlowCondensedSemiBold">
+                                            {{$cocktSlide->name}}
+                                        </div>
+                                        <h3 class="ff-BarlowCondensedSemiBold py-5">{{ $cocktSlide->name }}</h3>
+                                        <div class="ff-Montserrat">
+                                            {!! __($cocktSlide['textSlideCocktail_' . app()->getLocale()]) !!}
+                                        </div>
+                                        <a class="" href="{{ url('/cocktails/' . strtolower(str_replace(' ', '-', $cocktSlide->name))) }}"><button class="message-button ff-Montserrat" data-toggle="modal" data-target="#exampleModalCenter">EXPLORE FLAVOR</button></a>
+                                    </div>
+                                    <img src="{{ asset($cocktSlide->imgSlideCocktail) }}" alt="{{$cocktSlide->name}}">
                                 </div>
-                                <img class="" src="{{ asset('/storage/cocktails/1/Mojito.webp') }}" alt="Image 5">
+                            </div>
+                            <div class="col-2 bg-div-secondary-slideCocktail-img p-0">
+                                <img class="filter-brightness-slideCocktail" src="{{ asset(($key + 1 < count($cocktails)) ? $cocktails[$key+1]->imgSlideCocktail : $cocktails[0]->imgSlideCocktail) }}" alt="cocktail">
+                            </div>
+                            <div class="col-2 bg-div-secondary-slideCocktail-img p-0">
+                                <img class="filter-brightness-slideCocktail" src="{{ asset(($key + 1 && $key + 2  < count($cocktails)) ? $cocktails[$key+2]->imgSlideCocktail : $cocktails[1]->imgSlideCocktail) }}" alt="cocktail">
                             </div>
                         </div>
-                        <div class="col-2 bg-div-secondary-slideCocktail-img p-0">
-                            <img class="filter-brightness-slideCocktail" src="{{ asset('/storage/cocktails/2/Pinacolada.webp') }}" alt="Image 5">
-                        </div>
-                        <div class="col-2 bg-div-secondary-slideCocktail-img p-0">
-                            <img class="filter-brightness-slideCocktail" src="{{ asset('/storage/cocktails/3/Strawberry_Daiquiri_Slider.webp') }}" alt="Image 5">
-                        </div>
+                        <div class="swiper-button-prev swiper-button-prev-slideCocktail"></div>
+                        <div class="swiper-button-next swiper-button-next-slideCocktail"></div>
                     </div>
-                </div>
 
-                <div class="swiper-slide p-0 bg-transparent animate__animated animate__fadeInRight">
-                    <div class="row w-100 row-container-swiper-slideCocktail">
-                        <div class="col-8 p-0">
-                            <div class="bg-div-primary-slideCocktail-img d-flex">
-                                <div class="">
-                                    <h3>MOJITO</h3>
-                                    <p>The world-famous Mojito takes you on a Caribbean-tasting adventure down the streets of Havana. The rich flavor of the Caribbean rum mixed with the breezy notes of mint and lime makes for a perfectly refreshing cocktail.</p>
-                                    <p>Made with natural flavors and premium ingredients, the Coppa Cocktails Mojito is best enjoyed with crushed ice and in the company of great friends.</p>
-                                </div>
-                                <img class="" src="{{ asset('/storage/cocktails/2/Pinacolada.webp') }}" alt="Image 5">
-                            </div>
-                        </div>
-                        <div class="col-2 bg-div-secondary-slideCocktail-img p-0">
-                            <img class="filter-brightness-slideCocktail" src="{{ asset('/storage/cocktails/3/Strawberry_Daiquiri_Slider.webp') }}" alt="Image 5">
-                        </div>
-                        <div class="col-2 bg-div-secondary-slideCocktail-img p-0">
-                            <img class="filter-brightness-slideCocktail" src="{{ asset('/storage/cocktails/4/SOTB_Slider.png') }}" alt="Image 5">
-                        </div>
-                    </div>
-                </div>
+                @endforeach
 
             </div>
 
@@ -133,15 +173,39 @@
     </div>
 </section>
 
+
+{{-- LAPTOP AND PHONE --}}
+<section class="d-xxl-none">
+    <div class="section-slideCocktails-phone">
+        <div class="swiper-container swiper-container-slideCocktail-phone">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                <!-- Agrega más slides según sea necesario -->
+            </div>
+        </div>
+
+    </div>
+</section>
+
 <script>
     var swiper = new Swiper('.swiper-container-slideCocktail', {
         slidesPerView: 1,
         spaceBetween: 0,
-        loop: true,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
+        loop: false,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
         },
+        allowTouchMove: false,
+        grabCursor: false,
+    });
+
+    var swiper2 = new Swiper('.swiper-container-slideCocktail-phone', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        loop: false,
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
