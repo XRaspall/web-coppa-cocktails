@@ -71,8 +71,7 @@ const swiper2 = new Swiper('.swiper-container-contact', {
 
 // CARROUSEL DE LAS BOTELLAS
 
-document.addEventListener('DOMContentLoaded', function () {
-    var swiper = new Swiper('.swiper-container-cocktails', {
+var swiper3 = new Swiper('.swiper-container-cocktails', {
         slidesPerView: 1,
         spaceBetween: 30,
         navigation: {
@@ -102,5 +101,27 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         }
     });
+
+// SLIDER DE COCKTAILS DE LA HOME
+var swiperSlideCocktail = new Swiper('.swiper-container-slideCocktail', {
+    slidesPerView: 1,
+    spaceBetween: 0,
+    loop: false,
+    navigation: {
+        nextEl: '.swiper-button-next-cocktail-pc',
+        prevEl: '.swiper-button-prev-cocktail-pc',
+    },
+    allowTouchMove: false
 });
 
+var swiperSlideCocktailPhone = new Swiper('.swiper-container-slideCocktail-phone', {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    loop: false,
+    navigation: {
+        nextEl: '.swiper-button-next-cocktail-phone',
+        prevEl: '.swiper-button-prev-cocktail-phone',
+    },
+    allowTouchMove: false
+
+});

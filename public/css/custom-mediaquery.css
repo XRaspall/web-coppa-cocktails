@@ -91,6 +91,11 @@
         font-size: 40px;
     }
 
+    .bg-phone-section-slideCocktail img{
+        width: 17em;
+        display: flex;
+        margin: auto;
+    }
 
 }
 
