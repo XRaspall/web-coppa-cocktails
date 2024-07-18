@@ -12,6 +12,12 @@ return [
         'text3' => 'Produced with natural ingredients and certified colors, Coppa Cocktails deliver the best and most natural tasting ready-to-drink cocktails in the world. Just add ice and get a delicious, fresh, high-quality cocktail in an instant.',
     ],
 
+    'howitallstarted' => [
+        'title' => 'How it all started',
+        'text1' => 'Coppa Cocktails was first developed as an innovative solution for bars, clubs, and restaurants to deliver the highest quality cocktails without the need for skilled bartenders.',
+        'text2' => 'In the late 2010\'s we started noticing a growing interest for more innovative and high-quality cocktails made with natural ingredients. In 2019 we decided to rebrand Coppa Cocktails, introducing a new, easier way of serving extremely tasty high-quality cocktails to cocktail curious people around the globe.',
+        'text3' => 'With a range of over 15 flavors, and counting, we want to help you serve the perfect cocktail in an effortless way. Remember; just add ice!',
+    ],
 
     'readytodrink' => [
         'title1' => 'Top bartender quality',
@@ -39,13 +45,6 @@ return [
         'text5' => '
             <p>Throwing the perfect party or get-together should be easy. No more shaking, stirring, recipe reading and trips to the store. Just choose your favorite Coppa Cocktails and pour over ice!</p>
         ',
-    ],
-
-    'howitallstarted' => [
-        'title' => 'How it all started',
-        'text1' => 'Coppa Cocktails was first developed as an innovative solution for bars, clubs, and restaurants to deliver the highest quality cocktails without the need for skilled bartenders.',
-        'text2' => 'In the late 2010\'s we started noticing a growing interest for more innovative and high-quality cocktails made with natural ingredients. In 2019 we decided to rebrand Coppa Cocktails, introducing a new, easier way of serving extremely tasty high-quality cocktails to cocktail curious people around the globe.',
-        'text3' => 'With a range of over 15 flavors, and counting, we want to help you serve the perfect cocktail in an effortless way. Remember; just add ice!',
     ],
 
     'imagecocktail' => [

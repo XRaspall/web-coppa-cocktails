@@ -6,52 +6,52 @@
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item bg-transparent border-0">
                             <h3 class="accordion-header active" id="headingOne" onclick="toggleAccordion('collapseOne', 0)">
-                                Top bartender quality
+                                {{ __('aboutus.readytodrink.title1') }}
                             </h3>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body px-0">
-                                    <p>Highly sophisticated cocktails served in an effortless way with a level of quality that you can only expect from your favorite cocktail bar. Fast, premium, easy, and irresistible delicious.</p>
-                                    <p>Remember; Just add ice!</p>
+                                    {!! __('aboutus.readytodrink.text1') !!}
+
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item bg-transparent border-0">
                             <h3 class="accordion-header" id="headingTwo" onclick="toggleAccordion('collapseTwo', 1)">
-                                Over 15 delicious cocktails
+                                {{ __('aboutus.readytodrink.title2') }}
                             </h3>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div class="accordion-body px-0">
-                                    <p>Discover the broadest range of international ready-to-drink cocktails on the planet. Choose between over 15 award-winning Coppa Cocktails and find one favorite for every happy occasion.</p>
+                                    {!! __('aboutus.readytodrink.text2') !!}
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item bg-transparent border-0">
                             <h3 class="accordion-header" id="headingThree" onclick="toggleAccordion('collapseThree', 2)">
-                                Premium Natural Ingredients
+                                {{ __('aboutus.readytodrink.title3') }}
                             </h3>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                 <div class="accordion-body px-0">
-                                    <p>Coppa cocktails are made with natural ingredients, certified colors and premium spirits, giving you the best and most natural tasting ready-to-drink cocktails in the world. Just add ice!</p>
+                                    {!! __('aboutus.readytodrink.text3') !!}
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item bg-transparent border-0">
                             <h3 class="accordion-header" id="headingFour" onclick="toggleAccordion('collapseFour', 3)">
-                                Perfect sip, every time
+                                {{ __('aboutus.readytodrink.title4') }}
                             </h3>
                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                 <div class="accordion-body px-0">
-                                    <p>We have developed a method to ensure our Coppa Cocktails deliver a consistent superior taste every time. Our bottle sleeve helps conserve the ingredients, giving it a prolonged shelf life, perfect for those spontaneous get-togethers.</p>
+                                    {!! __('aboutus.readytodrink.text4') !!}
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item bg-transparent border-0">
                             <h3 class="accordion-header" id="headingFive" onclick="toggleAccordion('collapseFive', 4)">
-                                Easy to serve
+                                {{ __('aboutus.readytodrink.title5') }}
                             </h3>
                             <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                 <div class="accordion-body px-0">
-                                    <p>Throwing the perfect party or get-together should be easy. No more shaking, stirring, recipe reading and trips to the store. Just choose your favorite Coppa Cocktails and pour over ice!</p>
+                                    {!! __('aboutus.readytodrink.text5') !!}
                                 </div>
                             </div>
                         </div>

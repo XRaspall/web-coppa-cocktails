@@ -3,9 +3,9 @@
         <div class="row">
             <div class="col-12 col-md-6">
                 <h2 class="ff-BarlowCondensedSemiBold mb-4">
-                    Every occasion has<br>a perfect flavor
+                    {!! __('aboutus.imagecocktail.text') !!}
                 </h2>
-                <button class="ff-Montserrat text-uppercase">Discover our Coppa Cocktails</button>
+                <button class="ff-Montserrat text-uppercase">{{ __('aboutus.imagecocktail.btn') }}</button>
             </div>
         </div>
     </div>

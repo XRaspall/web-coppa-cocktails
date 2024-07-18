@@ -8,9 +8,9 @@
                     </div>
                     <div class="d-flex align-items-center">
                         <div class="mt-4">
-                            <h2 class="color-coppa-primary ff-BarlowCondensedSemiBold mb-4">Our Culture</h2>
-                            <p class="ff-Montserrat color-coppa-primary">At Coppa Cocktails we aim to inspire real connections through social, high-quality experiences. We are more than a cocktail. We are an instigator for cocktail change. Through our global community of cocktail curious people, we come together to celebrate life, love and friends. We embrace diversity, authenticity, quality, and ease, turning any occasion into a celebration.</p>
-                            <button class="message-button ff-Montserrat text-uppercase mt-4">Become part of our community</button>
+                            <h2 class="color-coppa-primary ff-BarlowCondensedSemiBold mb-4">{{ __('aboutus.ourculture.title') }}</h2>
+                            <p class="ff-Montserrat color-coppa-primary">{{ __('aboutus.ourculture.text') }}</p>
+                            <a href="{{ route('contactPage') }}"><button class="message-button ff-Montserrat text-uppercase mt-4">{{ __('aboutus.ourculture.btn') }}</button></a>
                         </div>
                     </div>
                 </div>
