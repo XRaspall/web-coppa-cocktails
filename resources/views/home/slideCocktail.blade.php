@@ -5,6 +5,7 @@
         width: 100%;
         height: 80vh;
         overflow: hidden;
+        background-color: #F9F8F5;
     }
 
     .section-slideCocktails .swiper-container {
@@ -37,26 +38,61 @@
         background-color: #0000007d;
     }
     .bg-div-secondary-slideCocktail-img img{
-             width: 100%;
-             height: 100%;
-             object-fit: cover;
-         }
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+     }
+
+    .section-slideCocktails h3{
+        color: #392A27;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: -1.25px;
+        line-height: 68px;
+        transform: translateY(10px);
+    }
+
+    .section-slideCocktails p{
+             font-size: 16px;
+             font-style: normal;
+             font-weight: 400;
+             line-height: 32px;
+             color: #392A27;
+    }
+
+    .section-slideCocktails small{
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 1.71429px;
+        line-height: 15px;
+        color: #392A27;
+        margin-top: 4.375rem;
+        text-transform: uppercase;
+    }
+
+    .section-slideCocktails .div-content-info-slideCocktail{
+        padding: 1rem 9rem ;
+    }
+
 </style>
 
 <section>
     <div class="section-slideCocktails">
         <div class="swiper-container swiper-container-slideCocktail">
             <div class="swiper-wrapper height-slideImage-carrusel">
-                <div class="swiper-button-prev "></div>
-                <div class="swiper-button-next "></div>
                 <div class="swiper-slide p-0 bg-transparent animate__animated animate__fadeInRight">
                     <div class="row w-100 row-container-swiper-slideCocktail">
                         <div class="col-8 p-0">
                             <div class="bg-div-primary-slideCocktail-img d-flex">
-                                <div class="">
-                                    <h3>MOJITO</h3>
-                                    <p>The world-famous Mojito takes you on a Caribbean-tasting adventure down the streets of Havana. The rich flavor of the Caribbean rum mixed with the breezy notes of mint and lime makes for a perfectly refreshing cocktail.</p>
-                                    <p>Made with natural flavors and premium ingredients, the Coppa Cocktails Mojito is best enjoyed with crushed ice and in the company of great friends.</p>
+                                <div class="div-content-info-slideCocktail align-content-center">
+                                    <small class="ff-Montserrat">CATEGORY / REFRESHING</small>
+                                    <h3 class="ff-BarlowCondensedSemiBold">Mojito</h3>
+                                    <p class="ff-Montserrat">The world-famous Mojito takes you on a Caribbean-tasting adventure down the streets of Havana. The rich flavor of the Caribbean rum mixed with the breezy notes of mint and lime makes for a perfectly refreshing cocktail.</p>
+                                    <p class="ff-Montserrat">Made with natural flavors and premium ingredients, the Coppa Cocktails Mojito is best enjoyed with crushed ice and in the company of great friends.</p>
+                                    <a class=""><button class="message-button ff-Montserrat" data-toggle="modal" data-target="#exampleModalCenter">EXPLORE FLAVOR</button></a>
+
                                 </div>
                                 <img class="" src="{{ asset('/storage/cocktails/1/Mojito.webp') }}" alt="Image 5">
                             </div>
@@ -92,9 +128,6 @@
                 </div>
 
             </div>
-
-        </div>
-        <div class="d-flex justify-content-between div-slideImages-controllers align-items-center">
 
         </div>
     </div>
