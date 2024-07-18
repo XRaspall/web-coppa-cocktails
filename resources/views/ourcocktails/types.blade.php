@@ -5,7 +5,7 @@
                 <img class="animate-on-scroll col-img" data-animation="animate__slideInLeft" src="{{{ asset('img/ourcocktails/COPPA-1818.jpg') }}}" alt="">
             </div>
             <div class="col-12 col-md-6 d-flex align-items-center justify-content-center px-5">
-                <div class="px-5">
+                <div class="px-0 px-lg-5">
                     <h2 class="ff-BarlowCondensedSemiBold color-coppa-primary animate-on-scroll" data-animation="animate__slideInUp">{{ __('ourcocktails.types.type1title') }}</h2>
                     <p class="ff-Montserrat color-coppa-primary animate-on-scroll" data-animation="animate__slideInUp">
                         {{ __('ourcocktails.types.type1text1') }}
@@ -25,7 +25,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 col-md-6 d-flex align-items-center justify-content-center px-5">
-                <div class="px-5">
+                <div class="px-0 px-lg-5">
                     <h2 class="ff-BarlowCondensedSemiBold color-coppa-primary animate-on-scroll" data-animation="animate__slideInUp">{{ __('ourcocktails.types.type2title') }}</h2>
                     <p class="ff-Montserrat color-coppa-primary animate-on-scroll" data-animation="animate__slideInUp">
                         {{ __('ourcocktails.types.type2text1') }}

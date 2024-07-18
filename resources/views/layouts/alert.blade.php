@@ -4,7 +4,7 @@
     <div class="container d-flex bg-white">
         <img src="{{ asset('img/modal/modalagetop.webp?version='.config('app.version')) }}" class="img-top-right">
         <div class="mx-auto">
-            <div class="d-flex mb-5 pt-3">
+            <div class="d-flex mb-0 mb-lg-5 pt-3">
                 <img width="200" class="mx-auto" src="{{ asset('img/logo.webp?version='.config('app.version')) }}" alt="Logo" title="Logo">
             </div>
             <div class="text-center pt-4">
@@ -31,7 +31,7 @@
                     </div>
                     <button class="color-coppa-primary ff-Montserrat">SUBMIT</button>
                 </div>
-                <div class="privacity-modal-age pt-5">
+                <div class="privacity-modal-age">
                     <div>
                         <p class="ff-Montserrat color-coppa-primary">By accessing our website, you are agreeing to our <a href="/terms-conditions-coppa-cocktails" rel="noopener" target="_blank" class="ff-Montserrat color-coppa-third">Terms and Conditions</a>, <a href="/privacy-statement-coppa-cocktails" rel="noopener" target="_blank" class="ff-Montserrat color-coppa-third">Privacy Policy and Cookie usage.</a> Please do not share or forward to anyone below legal drinking age. 2021 Coppa Cocktails AB. All rights reserved. Imported in the US by Coppa Cocktails US. Boston, MA.</p>
                     </div>
@@ -39,7 +39,7 @@
                 </div>
             </div>
         </div>
-        <img src="{{ asset('img/modal/modalagebottom.webp?version='.config('app.version')) }}" class="img-bottom-left">
+        <img src="{{ asset('img/modal/modalagebottom.webp?version='.config('app.version')) }}" class="img-bottom-left d-none d-lg-block">
 
     </div>
 </div>

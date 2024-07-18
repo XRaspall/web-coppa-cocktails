@@ -87,10 +87,10 @@
                 </div>
             </a>
             <div class="d-flex justify-content-between div-slideImages-controllers align-items-center">
-                <div class="swiper-button-prev position-relative mt-4 swiper-pagination-brown-line"></div>
+                <div class="swiper-button-prev swiper-button-prev-fourone position-relative mt-4 swiper-pagination-brown-line"></div>
                 <div class="swiper-pagination position-relative mt-4 swiper-pagination-brown-line"></div>
 
-                <div class="swiper-button-next position-relative mt-4 swiper-pagination-brown-line"></div>
+                <div class="swiper-button-next swiper-button-next-fourone  position-relative mt-4 swiper-pagination-brown-line"></div>
             </div>
         </div>
     </div>

@@ -8,8 +8,8 @@ var swiper = new Swiper('.swiper-container-fourone', {
         clickable: true,
     },
     navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: '.swiper-button-next-fourone',
+        prevEl: '.swiper-button-prev-fourone',
     },
     scrollbar: {
         el: '.swiper-scrollbar',
@@ -44,8 +44,8 @@ const swiper2 = new Swiper('.swiper-container-contact', {
     slidesPerView: 1,
     spaceBetween: 0,
     navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: '.swiper-button-next-contact',
+        prevEl: '.swiper-button-prev-contact',
     },
     pagination: {
         el: '.swiper-pagination',
@@ -76,8 +76,8 @@ document.addEventListener('DOMContentLoaded', function () {
         slidesPerView: 1,
         spaceBetween: 30,
         navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
+            nextEl: '.swiper-button-next-cocktails',
+            prevEl: '.swiper-button-prev-cocktails',
         },
         pagination: {
             el: '.swiper-pagination',

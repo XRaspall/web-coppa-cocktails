@@ -1,7 +1,7 @@
 <section class="cocktails-slide">
     <div class="container py-5">
         <div class="section-slideImage d-flex">
-            <div class="swiper-button-prev position-relative mt-4 swiper-pagination-brown-line align-self-center"></div>
+            <div class="swiper-button-prev swiper-button-prev-cocktails position-relative mt-4 swiper-pagination-brown-line align-self-center"></div>
             <div class="swiper-container swiper-container-cocktails d-flex align-items-center">
                 <div class="swiper-wrapper height-slideImage-carrusel">
                     @foreach($cocktails as $index => $cockt)
@@ -19,10 +19,10 @@
                     @endforeach
                 </div>
             </div>
-            <div class="swiper-button-next position-relative mt-4 swiper-pagination-brown-line align-self-center"></div>
+            <div class="swiper-button-next swiper-button-next-cocktails position-relative mt-4 swiper-pagination-brown-line align-self-center"></div>
         </div>
         <div class="d-flex justify-content-between div-slideImages-controllers align-items-center">
-            <div class="swiper-pagination position-relative mt-4 swiper-pagination-brown-line"></div>
+            <div class="swiper-pagination  position-relative mt-4 swiper-pagination-brown-line"></div>
         </div>
     </div>
 </section>

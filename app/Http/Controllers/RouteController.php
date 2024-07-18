@@ -25,19 +25,19 @@ class RouteController extends Controller
                 <h6>Coppa Cocktails Company</h6>
                 <h6>Amsterdam - The Netherlands</h6>
                 <h6>Chamber of Commerce: 77582586</h6>
-                <h6>Telephone number: +31 (0) 88 990 7000</h6>
+                <h6>Telephone number: 938 148 000</h6>
             ',
             'text_de' => '
                 <h6>Coppa Cocktails Firma</h6>
                 <h6>Amsterdam - Die Niederlande</h6>
                 <h6>Handelskammer: 77582586</h6>
-                <h6>Telefonnummer: +31 (0) 88 990 7000</h6>
+                <h6>Telefonnummer: 938 148 000</h6>
             ',
             'text_en-us' => '
                 <h6>Coppa Cocktails Company</h6>
                 <h6>Amsterdam - The Netherlands</h6>
                 <h6>Chamber of Commerce: 77582586</h6>
-                <h6>Telephone number: +31 (0) 88 990 7000</h6>
+                <h6>Telephone number: 938 148 000</h6>
             ',
             'text1_en' => 'HOME',
             'text1_de' => 'HEIM',
@@ -62,19 +62,19 @@ class RouteController extends Controller
                 <h6>Coppa Cocktails Company</h6>
                 <h6>Amsterdam - The Netherlands</h6>
                 <h6>Chamber of Commerce: 77582586</h6>
-                <h6>Telephone number: +31 (0) 88 990 7000</h6>
+                <h6>Telephone number: 938 148 000</h6>
             ',
             'text_de' => '
                 <h6>Coppa Cocktails Firma</h6>
                 <h6>Amsterdam - Die Niederlande</h6>
                 <h6>Handelskammer: 77582586</h6>
-                <h6>Telefonnummer: +31 (0) 88 990 7000</h6>
+                <h6>Telefonnummer: 938 148 000</h6>
             ',
             'text_en-us' => '
                 <h6>Coppa Cocktails Company</h6>
                 <h6>Amsterdam - The Netherlands</h6>
                 <h6>Chamber of Commerce: 77582586</h6>
-                <h6>Telephone number: +31 (0) 88 990 7000</h6>
+                <h6>Telephone number: 938 148 000</h6>
             ',
             'text1_en' => 'HOME',
             'text1_de' => 'HEIM',
@@ -105,14 +105,10 @@ class RouteController extends Controller
             'text_en-us' => '
                 <p>Explore buying options on our store locator or join the Coppa Cocktails community and get in touch with us!</p>
             ',
-            'text1_en' => 'FIND A STORE',
-            'text1_de' => 'EIN GESCHÄFT FINDEN',
-            'text1_en-us' => 'FIND A STORE',
-            'link1' => '/',
-            'text2_en' => 'CONTACT US',
-            'text2_de' => 'KONTAKT',
-            'text2_en-us' => 'CONTACT US',
-            'link2' => '/contact-coppa-cocktails',
+            'text1_en' => 'CONTACT US',
+            'text1_de' => 'KONTAKT',
+            'text1_en-us' => 'CONTACT US',
+            'link1' => '/contact-coppa-cocktails',
         ];
 
         $cocktails = $this->cocktailRepository->all();

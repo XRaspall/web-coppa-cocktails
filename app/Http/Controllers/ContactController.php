@@ -13,8 +13,7 @@ class ContactController extends Controller
     public function contactmail(ContactRequest $request)
     {
         try {
-            $toEmail = $request->contactEmail . '@coppacocktails.com';
-            logger($toEmail);
+            $toEmail = 'info@coppacocktails.com';
 
             $contactMail = new SendMail($request);
             Mail::to($toEmail)->send($contactMail);

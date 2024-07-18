@@ -39,6 +39,20 @@
         right: -93px;
     }
 
+    #modal-div-info-age .privacity-modal-age p {
+        padding: 0;
+    }
+    #modal-div-info-age {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .section-info-home .width-info-text h2{
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+
 
 }
 
@@ -76,6 +90,8 @@
     .section-slideImage .swiper-slide img.h-8em-custom {
         height: 11em;
     }
+
+
 
 
 

@@ -7,7 +7,6 @@
                     <div class="animate-on-scroll d-flex flex-column my-3 ff-Montserrat" data-animation="animate__fadeInUp">{!! $details['text_' . app()->getLocale()] !!}</div>
                     <div class="animate-on-scroll d-flex justify-content-between my-3" data-animation="animate__slideInUp">
                         <a href="{{ $details['link1'] }}"><button class="message-button ff-Montserrat">{{ $details['text1_' . app()->getLocale()] }}</button></a>
-                        <a href="{{ $details['link2'] }}" class="secondary-link ff-Montserrat">{{ $details['text2_' . app()->getLocale()] }}</a>
                     </div>
                 </div>
             </div>

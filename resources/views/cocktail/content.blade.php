@@ -64,7 +64,6 @@
                 <div class="d-flex flex-column ff-Montserrat color-coppa-primary cocktail-text1-container">
                     {!! $cocktail->text1_en !!}
                 </div>
-                <a href="https://www.coppacocktails.com/store-locator" target="_blank"><button class="wheretobuy-button ff-Montserrat mt-2">WHERE TO BUY</button></a>
             </div>
             <div class="col-12 row">
                 <div class="col-12">

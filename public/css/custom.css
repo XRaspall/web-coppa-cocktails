@@ -86,11 +86,11 @@
     overflow: hidden;
 }
 
-.cocktails-slide .swiper-button-next:after, .swiper-button-prev:after {
+.cocktails-slide .swiper-button-next:after,.cocktails-slide .swiper-button-prev:after {
     font-size: 20px;
 }
 
-.cocktails-slide .swiper-button-next, .swiper-button-prev{
+.cocktails-slide .swiper-button-next,.cocktails-slide .swiper-button-prev{
     color: #392a27;
 }
 
