@@ -6,19 +6,19 @@
                 <p class="ff-Montserrat color-coppa-primary">{{ __('contact.info.text2') }}</p>
             </div>
             <div class="col-12 col-md-6 pb-5 d-flex flex-column animate-on-scroll" data-animation="animate__slideInUp">
-                <h1 class="color-coppa-primary ff-BarlowCondensedMedium">{{ __('contact.info.contact1title') }}</h1>
+                <h1 class="color-coppa-primary ff-BarlowCondensedSemiBold">{{ __('contact.info.contact1title') }}</h1>
                 <p class="ff-Montserrat color-coppa-primary mb-5">{{ __('contact.info.contact1text') }}</p>
                 <a class="ff-Montserrat color-coppa-primary fw-bold text-decoration-none mb-5" href="mailto:marketing@coppacocktails.com">marketing@coppacocktails.com</a>
                 <a class=""><button class="message-button ff-Montserrat open-send-message" data-toggle="modal" data-target="#exampleModalCenter" data-email="marketing">{{ __('contact.info.btn') }}</button></a>
             </div>
             <div class="col-12 col-md-6 pb-5 d-flex flex-column animate-on-scroll" data-animation="animate__slideInUp">
-                <h1 class="color-coppa-primary ff-BarlowCondensedMedium">{{ __('contact.info.contact2title') }}</h1>
+                <h1 class="color-coppa-primary ff-BarlowCondensedSemiBold">{{ __('contact.info.contact2title') }}</h1>
                 <p class="ff-Montserrat color-coppa-primary mb-5">{{ __('contact.info.contact2text') }}</p>
                 <a class="ff-Montserrat color-coppa-primary fw-bold text-decoration-none mb-5" href="mailto:sales@coppacocktails.com">sales@coppacocktails.com</a>
                 <a class=""><button class="message-button ff-Montserrat open-send-message" data-toggle="modal" data-target="#exampleModalCenter" data-email="sales">{{ __('contact.info.btn') }}</button></a>
             </div>
             <div class="col-12 col-md-6 pt-5 d-flex flex-column animate-on-scroll" data-animation="animate__slideInUp">
-                <h1 class="color-coppa-primary ff-BarlowCondensedMedium">{{ __('contact.info.contact3title') }}</h1>
+                <h1 class="color-coppa-primary ff-BarlowCondensedSemiBold">{{ __('contact.info.contact3title') }}</h1>
                 <p class="ff-Montserrat color-coppa-primary mb-5">{{ __('contact.info.contact3text') }}</p>
                 <a class="ff-Montserrat color-coppa-primary fw-bold text-decoration-none mb-5" href="mailto:info@coppacocktails.com">info@coppacocktails.com</a>
                 <a class=""><button class="message-button ff-Montserrat open-send-message" data-toggle="modal" data-target="#exampleModalCenter" data-email="info">{{ __('contact.info.btn') }}</button></a>

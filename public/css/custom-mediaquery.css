@@ -107,24 +107,24 @@
         font-size: 40px;
     }
 
-    .banner-contact div.center-banner-div h2{
+    .banner-contact div.center-banner-div h2,.banner-legal div.center-banner-div h1{
         font-size: 50px;
         line-height: 46px;
     }
 
-    .banner-contact{
+    .banner-contact,.banner-legal{
         height: 75vh;
     }
 
-    .banner-contact::before, .banner-contact::after {
+    .banner-contact::before, .banner-contact::after,.banner-legal::before, .banner-legal::after {
         width: 126vw;
     }
 
-    .banner-contact::before {
+    .banner-contact::before,.banner-legal::before {
         left: -16em;
     }
 
-    .banner-contact::after {
+    .banner-contact::after,.banner-legal::after {
         right: -16em;
     }
 

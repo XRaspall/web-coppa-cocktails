@@ -185,6 +185,134 @@ class CocktailsSeeder extends Seeder
                 <p>With a delicious sweetness and a brisk sour cue, the Coppa Cocktails Amaretto Sour indulges your cocktail curiosity, making it the perfect choice for any celebration.</p>
             ",
         ];
+        $textSlideCocktail_de = [
+            "
+                <p>Der weltberühmte Mojito nimmt Sie mit auf ein karibisches Geschmackserlebnis durch die Straßen von Havanna. Der reichhaltige Geschmack des karibischen Rums, gemischt mit den frischen Noten von Minze und Limette, ergibt einen perfekt erfrischenden Cocktail.</p>
+                <p>Hergestellt aus natürlichen Aromen und Premium-Zutaten, genießt man den Coppa Cocktails Mojito am besten mit Crushed Ice und in guter Gesellschaft.</p>
+            ",
+            "
+                <p>Der Coppa Cocktails Piña Colada erinnert an einen tropischen Kurzurlaub. Die süßen Aromen von Ananassaft und die glatte, reichhaltige Textur der Kokoscreme, die über Crushed Ice gegossen werden, machen ihn zum idealen Sommer-Cocktail.</p>
+                <p>Hergestellt aus Rum, natürlichen Aromen und Premium-Zutaten, genießt man den Coppa Cocktails Piña Colada am besten an einem sonnigen Strand in Gesellschaft von Freunden.</p>
+            ",
+            "
+                <p>Der Coppa Strawberry Daiquiri ist ein unwiderstehlich süßer, frischer und fruchtiger Cocktail, der perfekt zum Sommer passt und Ihre Geschmacksknospen kitzelt. Perfekt erfrischend für Sommertage am Pool oder um sich auf den ersehnten Strandurlaub zu freuen.</p>
+                <p>Hergestellt aus Premium-Rum, frischen Erdbeeren und erfrischender Limette wird dieser Strawberry Daiquiri zum Lieblingscocktail eines jeden Sonnenanbeters.</p>
+            ",
+            "
+                <p>Der Coppa Cocktails Sex on the Beach ist ein fruchtiger, süßer und frecher Cocktail. Überraschenderweise der perfekte Cocktail zum Genießen am Strand oder bei einem entspannten Treffen mit Freunden. Hergestellt aus Wodka, Pfirsichlikör, Orangen-, Ananas- und Cranberrysaft ist der Sex on the Beach pures Sonnenlicht in einer Flasche.</p>
+                <p>Schlürfen im Sommer, Liebe und All-Night-Partys in einem großartigen Cocktail.</p>
+            ",
+            "
+                <p>Treten Sie ein in die lebendige Welt der Tiki-Cocktails mit unserem Coppa Cocktails Mai Tai. Hergestellt mit reichhaltigem Rum, süßem Orangensaft und erfrischendem Limettensaft lädt unser Coppa Cocktails Mai Tai dazu ein, Ihre Sinne zu erweitern und ein natürliches Geschmackserlebnis zu genießen, inspiriert von der warmen Tiki-Kultur und ihren Menschen.</p>
+                <p>Feiern Sie das Leben, die Liebe und Freunde mit diesem Coppa Cocktails Favoriten, auf Eis und in guter Gesellschaft.</p>
+            ",
+            "
+                <p>Der Margarita ist einer der beliebtesten Cocktails der Welt, perfekt für jeden heißen Sommertag oder fröhliches Beisammensein. Hergestellt mit Premium-Tequila, Likör, köstlicher Limette und natürlichen Aromen wird dieser erfrischende Cocktail Ihr bevorzugtes Getränk für jede Party.</p>
+                <p>Mit frischen Zitrusnoten macht der Coppa Cocktails Margarita Sie zum perfekten Gastgeber und jede Gelegenheit zur Feier.</p>
+            ",
+            "
+                <p>Wenn Sie ein anspruchsvolles Statement setzen möchten, ist der Cosmopolitan Ihr Cocktail der Wahl. Sein süßer Orangengeschmack und frischer Limettensaft, kombiniert mit der charakteristischen rosa Farbe des Cosmopolitan, machen ihn zu einem bildschönen Cocktail, der Feierlichkeiten ausstrahlt.</p>
+                <p>Hergestellt aus Wodka, natürlichen Aromen und Premium-Zutaten. Der Coppa Cocktails Cosmopolitan genießt sich am besten auf einem belebten Dach oder an einer heimischen Bar, umgeben von Freunden.</p>
+            ",
+            "
+                <p>Der Tequila Sunrise ist ein beliebter Cocktail bei Partygängern weltweit. Dieser fruchtige Cocktail-Favorit, mit Wurzeln in der Rock 'n' Roll-Szene, hat wahrscheinlich mehr Sonnenaufgänge gesehen als die meisten unserer Coppa Cocktails.</p>
+                <p>Mit den besten Zutaten, Premium-Blanco-Tequila und dem süßen Geschmack von Orange verwandelt der Coppa Cocktails Tequila Sunrise jede Feier in eine Party und Sie in ihren ultimativen Gastgeber.</p>
+            ",
+            "
+                <p>Der Coppa Cocktails Passion Fruit Martini ist ein lustiger und schicker Hingucker. Die Frische des Limettensafts und die Süße der Passionsfrucht, gemischt mit den subtilen Noten von Premium-Wodka, machen ihn zu einem unwiderstehlichen Cocktail.</p>
+                <p>Träumen Sie von schicken Hotelbars und belebten Dachterrassen mit unserem Coppa Cocktails Passion Fruit Martini. Stilvolles Schlürfen leicht gemacht.</p>
+            ",
+            "
+                <p>Der Long Island Iced Tea ist ein erfrischender Publikumsliebling, der auf Veranden und Partys weltweit genossen wird. Hergestellt mit einer sorgfältigen Auswahl an weißen Spirituosen und natürlichen Aromen wird dieser süße Cocktail unwiderstehlich, wenn er auf Eis serviert und mit Cola aufgegossen wird.</p>
+                <p>Mit einem subtilen Punch und frischen Zitrusnoten macht der Coppa Cocktails Long Island Iced Tea das sommerliche Schlürfen einfach und köstlich.</p>
+            ",
+            "
+                <p>Der Espresso Martini ist ein reichhaltiger, genussvoller und geschmeidiger Cocktail. Die üppige Mischung aus Wodka, Cold Brew Kaffee und Kaffeelikör ist das Herzstück eines jeden Essens und bietet Cocktail-Liebhabern eine köstliche und sehr schlürfbare Dessertoption, um die Feier fortzusetzen.</p>
+                <p>Der Coppa Cocktails Espresso Martini wird mit natürlichen Aromen hergestellt und bringt Wodka- und Espresso-Noten als perfekte Ergänzung zu Ihrer Party.</p>
+            ",
+            "
+                <p>Der Coppa Cocktails Negroni ist der ultimative italienische Aperitif. Seine fruchtigen Aromen und Kräutergeschmäcker kreieren einen komplexen und mutigen Cocktail, perfekt für den Beginn eines Abends voller Feierlichkeiten, umgeben von Freunden und Familie. Traditionell hergestellt mit Gin, Wermut, Likör und natürlichen Aromen, verleiht der Negroni dem einfachen Schlürfen eine neue, kühnere Bedeutung.</p>
+                <p>Fügen Sie einfach Eis und gute Gesellschaft hinzu, um das perfekte Cocktail-Erlebnis zu genießen.</p>
+            ",
+            "
+                <p>Rum & Ginger ist ein köstlicher und vielseitiger Favorit, der auf Terrassen und Partys weltweit genossen wird. Dieser geschmackvolle Cocktail wird als Aperitif, Sommererfrischung oder Nachmittags- und Abendgetränk serviert und ist perfekt für spontane Feierlichkeiten.</p>
+                <p>Hergestellt mit reichhaltigem Rum und würzigem Ingwer wird der Coppa Cocktails Rum & Ginger jede Unterhaltung in Gang bringen. Das Feiern von Leben, Liebe und Freunden war noch nie einfacher, einfach Eis hinzufügen.</p>
+            ",
+            "
+                <p>Der Whiskey Sour ist ein ikonischer Cocktail, der den Weg für viele zeitgenössische Cocktail-Favoriten in der Geschichte der Mixologie geebnet hat.</p>
+                <p>Hergestellt aus dem besten Kentucky Straight Bourbon Whiskey, der drei Jahre lang in Fässern gereift ist, und gemischt mit Sirup, Rum und natürlichen Aromen. Der Coppa Cocktails Whiskey Sour Cocktail bringt ein anspruchsvolles sensorisches Erlebnis zu jeder festlichen Feier.</p>
+            ",
+            "
+                <p>Der Amaretto Sour wird Sie mit seiner schönen Balance aus Mandeln und Limettensaft umhauen. Ein moderner Cocktailklassiker aus Italien, der den bittersüßen Geschmack der letzten Sommertage verkörpert.</p>
+                <p>Mit einer köstlichen Süße und einem knackigen sauren Akzent weckt der Coppa Cocktails Amaretto Sour Ihre Cocktail-Neugier und ist die perfekte Wahl für jede Feier.</p>
+            ",
+        ];
+
+        $textSlideCocktail_us = [
+            "
+                <p>The world-famous Mojito takes you on a Caribbean-tasting adventure down the streets of Havana. The rich flavor of the Caribbean rum mixed with the breezy notes of mint and lime makes for a perfectly refreshing cocktail.</p>
+                <p>Made with natural flavors and premium ingredients, the Coppa Cocktails Mojito is best enjoyed with crushed ice and in the company of great friends.</p>
+            ",
+            "
+                <p>The Coppa Cocktails Piña Colada reminds you of a tropical getaway. The sweet flavors of pineapple juice, and the smooth, rich texture of coconut cream poured over crushed ice, becomes the ideal summer cocktail treat.</p>
+                <p>Made with rum, natural flavors and premium ingredients, the Coppa Cocktails Piña Colada is best enjoyed on a sun-drenched beach in the company of friends.</p>
+            ",
+            "
+                <p>The Coppa Strawberry Daiquiri is an irresistibly sweet, fresh, and fruity cocktail that matches summer to a tee and tickles your taste buds. Perfectly refreshing for summer days by the pool or for looking forward to that breezy beach vacation we both know you deserve.</p>
+                <p>Made with premium rum, fresh strawberries, and refreshing lime, this Strawberry Daiquiri becomes any sun lover's cocktail favorite.</p>
+            ",
+            "
+                <p>The Coppa Cocktails Sex on the Beach is a fruity, sweet, and cheeky cocktail treat. Unsurprisingly a perfect cocktail to sip on at the beach or during a relaxed get-together with friends. Made with vodka, peach schnapps, orange, pineapple, and cranberry juice, the Sex on the Beach is pure sunshine in a bottle.</p>
+                <p>Sippable summers, love, and all-night celebrations in one great tasting cocktail.</p>
+            ",
+            "
+                <p>Step right into the vibrant world of Tiki cocktails with our Coppa Cocktails Mai Tai. Made with rich rum, sweet orange juice, and refreshing lime juice, our Coppa Cocktails Mai Tai welcomes you to broaden your senses and enjoy a natural flavor experience inspired by the warm Tiki culture and its people.</p>
+                <p>Celebrate life, love, and friends with this Coppa Cocktails favorite, on ice and in great company.</p>
+            ",
+            "
+                <p>The Margarita is one of the most popular cocktails on the planet, perfect for any sizzling summer day or happy get-together. Made with premium tequila, liquor, delicious lime, and natural flavors, this refreshing cocktail becomes your go-to drink for any party made easy.</p>
+                <p>With breezy citric notes, the Coppa Cocktails Margarita turns you into the perfect host and any occasion into a celebration.</p>
+            ",
+            "
+                <p>If you are looking to make a sophisticated statement, the Cosmopolitan is your cocktail of choice. Its sweet orange flavor and fresh lime juice combined with the Cosmopolitan's signature lush pink color make this a picture-perfect cocktail that oozes celebration.</p>
+                <p>Made with vodka, natural flavors, and premium ingredients. The Coppa Cocktails Cosmopolitan is best enjoyed on a bustling rooftop or at a home bar surrounded by friends.</p>
+            ",
+            "
+                <p>The Tequila Sunrise is a popular cocktail among party-goers worldwide. This fruity cocktail favorite, with roots in the rock 'n roll scene, has likely seen more sunrises than most of our Coppa cocktails.</p>
+                <p>Using the best ingredients, premium blanco tequila, and the sweet taste of orange, the Coppa Cocktails Tequila Sunrise transforms any celebration into a party and you into its ultimate host.</p>
+            ",
+            "
+                <p>The Coppa Cocktails Passion Fruit Martini is a fun and chic attention grabber. The freshness of the lime juice and the sweetness of the passion fruit blended with the subtle notes of premium vodka makes this an irresistible cocktail treat.</p>
+                <p>Dream of fancy hotel bars and bustling rooftops with our Coppa Cocktails Passion Fruit Martini. Stylish sipping made easy.</p>
+            ",
+            "
+                <p>The Long Island Iced Tea is a refreshing crowd-pleaser, sipped on porches and parties worldwide. Made with a careful selection of white spirits and natural flavors, this sweet cocktail becomes irresistible when served on ice and topped off with Cola.</p>
+                <p>With a subtle punch and fresh citric notes, the Coppa Cocktails Long Island Iced Tea makes summer sipping simple and delicious.</p>
+            ",
+            "
+                <p>The Espresso Martini is a rich, indulgent, and smooth cocktail. The sumptuous mix of vodka, cold brew coffee, and coffee liqueur has become the staple of any dining experience, giving cocktail lovers a delicious and very sippable dessert option to continue the celebration.</p>
+                <p>The Coppa Cocktails Espresso Martini is made with natural flavors, introducing vodka and espresso notes as the perfect additions to your party.</p>
+            ",
+            "
+                <p>The Coppa Cocktails Negroni is the ultimate Italian aperitif. Its fruity aromas and herb flavors create a complex and bold cocktail, perfect for the start of an evening of celebration surrounded by friends and family. Traditionally made with gin, vermouth, liqueur, and natural flavors, the Negroni gives a new, bolder meaning to simple sipping.</p>
+                <p>Just add ice and great company to enjoy that perfect cocktail experience.</p>
+            ",
+            "
+                <p>Rum & Ginger is a delicious and versatile favorite, sipped on patios and parties worldwide. This flavorful cocktail is served as an aperitif, summer refreshment, or afternoon and dinner drink, perfect for spontaneous celebrations.</p>
+                <p>Made with rich rum and zesty ginger, the Coppa Cocktails Rum & Ginger will kick start any conversation. Celebrating life, love, and friends has never been easier, just add ice.</p>
+            ",
+            "
+                <p>The Whiskey Sour is an iconic cocktail that paved the way for many contemporary cocktail favorites throughout the history of mixology.</p>
+                <p>Made with the best Kentucky straight bourbon whiskey aged in barrels for three years, and blended with syrup, rum, and natural flavors. The Coppa Cocktails Whiskey Sour Cocktail brings a sophisticated sensorial treat to any festive celebration.</p>
+            ",
+            "
+                <p>The Amaretto Sour will sweep you off your feet with its beautiful balance of almonds and lime juice. A modern cocktail classic from Italy that embodies the bittersweet taste of those last summer days.</p>
+                <p>With a delicious sweetness and a brisk sour cue, the Coppa Cocktails Amaretto Sour indulges your cocktail curiosity, making it the perfect choice for any celebration.</p>
+            ",
+        ];
+
+
+
 
 
         for ($i = 0; $i < count($names); $i++) {
@@ -207,8 +335,8 @@ class CocktailsSeeder extends Seeder
                 'category_en-us' => '',
                 'imgSlideCocktail' => 'storage/cocktails/' . $i + 1 . '/images/imgSlideCocktail.webp',
                 'textSlideCocktail_en' => $textSlideCocktail_en[$i],
-                'textSlideCocktail_de' => '',
-                'textSlideCocktail_en-us' => '',
+                'textSlideCocktail_de' => $textSlideCocktail_de[$i],
+                'textSlideCocktail_en-us' => $textSlideCocktail_us[$i],
             ]);
 
             for ($j = 1; $j <= 6; $j++) {

@@ -5,7 +5,7 @@
                 <h2 class="ff-BarlowCondensedSemiBold mb-4">
                     {!! __('aboutus.imagecocktail.text') !!}
                 </h2>
-                <button class="ff-Montserrat text-uppercase">{{ __('aboutus.imagecocktail.btn') }}</button>
+                <a href="{{ route('ourCocktailsPage') }}"><button class="ff-Montserrat text-uppercase">{{ __('aboutus.imagecocktail.btn') }}</button></a>
             </div>
         </div>
     </div>
