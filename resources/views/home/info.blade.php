@@ -7,10 +7,10 @@
             <div class="col-12 col-md-6 p-5">
                 <div class="h-100 d-flex justify-content-center align-items-center">
                     <div class="width-info-text">
-                        <h2 class="ff-BarlowCondensedSemiBold color-coppa-primary animate-on-scroll" data-animation="animate__fadeInUp">Celebrate life, love and friends with the world’s best ready-to-drink cocktails</h2>
+                        <h2 class="ff-BarlowCondensedSemiBold color-coppa-primary animate-on-scroll" data-animation="animate__fadeInUp">{{ __('home.info.title') }}</h2>
                         <div class="animate-on-scroll" data-animation="animate__fadeInUp">
-                            <p class="ff-Montserrat color-coppa-primary">We want to spread love, laughter, cocktails and sunshine to all parts of the world where celebration is due. That’s why we created Coppa Cocktails – To bring people together with an easy approach to sophisticated cocktail making.</p>
-                            <p class="ff-Montserrat color-coppa-primary mb-0">We don’t compromise on quality and flavors. That’s why our 15 ready-to-drink cocktails are created with the best ingredients and packed with natural flavors so that everyone, independently of their cocktail making skills, can share a high-quality cocktail experience that is fun, easy and delicious.</p>
+                            <p class="ff-Montserrat color-coppa-primary">{{ __('home.info.text1') }}</p>
+                            <p class="ff-Montserrat color-coppa-primary mb-0">{{ __('home.info.text2') }}</p>
                         </div>
                     </div>
                 </div>

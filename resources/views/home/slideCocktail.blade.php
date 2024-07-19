@@ -20,7 +20,7 @@
                                         <div class="ff-Montserrat">
                                             {!! __($cocktSlide['textSlideCocktail_' . app()->getLocale()]) !!}
                                         </div>
-                                        <a class="" href="{{ url('/cocktails/' . strtolower(str_replace(' ', '-', $cocktSlide->name))) }}"><button class="message-button ff-Montserrat" data-toggle="modal" data-target="#exampleModalCenter">EXPLORE FLAVOR</button></a>
+                                        <a class="" href="{{ url('/cocktails/' . strtolower(str_replace(' ', '-', $cocktSlide->name))) }}"><button class="message-button ff-Montserrat" data-toggle="modal" data-target="#exampleModalCenter">{{ __('home.slideCocktail.btn') }}</button></a>
                                     </div>
                                     <img src="{{ asset($cocktSlide->imgSlideCocktail) }}" alt="{{$cocktSlide->name}}">
                                 </div>
@@ -74,7 +74,7 @@
                                         <div class="ff-Montserrat">
                                             {!! __($cocktSlide['textSlideCocktail_' . app()->getLocale()]) !!}
                                         </div>
-                                        <a class="" href="{{ url('/cocktails/' . strtolower(str_replace(' ', '-', $cocktSlide->name))) }}"><button class="message-button ff-Montserrat" data-toggle="modal" data-target="#exampleModalCenter">EXPLORE FLAVOR</button></a>
+                                        <a class="" href="{{ url('/cocktails/' . strtolower(str_replace(' ', '-', $cocktSlide->name))) }}"><button class="message-button ff-Montserrat" data-toggle="modal" data-target="#exampleModalCenter">{{ __('home.slideCocktail.btn') }}</button></a>
                                     </div>
                                 </div>
                                 <div class="col-12 col-md-4">
