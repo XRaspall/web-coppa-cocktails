@@ -85,7 +85,7 @@
                 </div>
 
                 <div class="d-flex mt-5 volume-values-container">
-                    <button class="option-button ff-BarlowCondensedSemiBold active">0.7L</button>
+                    <button class="option-button ff-BarlowCondensedSemiBold">0.7L</button>
                     <button class="option-button ff-BarlowCondensedSemiBold">100ML</button>
                 </div>
                 <div class="d-flex flex-column ff-Montserrat color-coppa-primary my-5">
@@ -96,3 +96,5 @@
         </div>
     </div>
 </section>
+
+

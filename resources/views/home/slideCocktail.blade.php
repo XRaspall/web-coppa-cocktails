@@ -2,7 +2,7 @@
 
 <section class="d-none d-xxl-block">
     <div class="section-slideCocktails">
-        <div class="swiper-container swiper-container-slideCocktail">
+        <div class="swiper-container swiper-container-slideCocktail animate-on-scroll" data-animation="animate__fadeInUp">
             <div class="swiper-wrapper height-slideImage-carrusel">
 
                 @foreach($cocktails as $key => $cocktSlide)

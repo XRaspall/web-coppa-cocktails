@@ -54,7 +54,7 @@
 
 
             <a class="text-decoration-none" target="_blank" href="https://www.instagram.com/coppacocktails_us/">
-                <div class="swiper-container">
+                <div class="swiper-container swiper-container-contact">
                     <div class="swiper-wrapper height-slideImage-carrusel">
                         <div class="swiper-slide p-0 me-0 bg-transparent">
                             <img class="" src="{{ asset('img/aboutus/carrusel/SOTB_Coppa_Cocktails_9.webp') }}" alt="Image 1">
@@ -96,10 +96,10 @@
                 </div>
             </a>
             <div class="d-flex justify-content-between div-slideImages-controllers align-items-center">
-                <div class="swiper-button-prev swiper-button-prev-fourone position-relative mt-4 swiper-pagination-brown-line"></div>
+                <div class="swiper-button-prev swiper-button-prev-contact position-relative mt-4 swiper-pagination-brown-line"></div>
                 <div class="swiper-pagination position-relative mt-4 swiper-pagination-brown-line"></div>
 
-                <div class="swiper-button-next swiper-button-next-fourone position-relative mt-4 swiper-pagination-brown-line"></div>
+                <div class="swiper-button-next swiper-button-next-contact position-relative mt-4 swiper-pagination-brown-line"></div>
             </div>
         </div>
     </div>
