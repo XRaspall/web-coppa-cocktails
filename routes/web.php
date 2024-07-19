@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ArtisanController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\RouteController;
 use Illuminate\Support\Facades\Route;
@@ -30,6 +31,9 @@ Route::get('/terms-conditions-coppa-cocktails', [RouteController::class, 'websit
 Route::get('/general-terms-and-conditions-of-sale-and-delivery', [RouteController::class, 'generalterms'])->name('generalterms');
 
 Route::post('/contact-send', [ContactController::class, 'contactmail'])->name('contactSendName');
+
+Route::get("/clear-cache", [ArtisanController::class, 'clearCache']);
+
 
 
 // LANG ROUTES
