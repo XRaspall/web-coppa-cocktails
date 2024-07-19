@@ -122,6 +122,44 @@ class CocktailsSeeder extends Seeder
             'CATEGORY / SWEET & SOUR',
         ];
 
+        $category_de = [
+            'KATEGORIE / ERFRISCHEND',
+            'KATEGORIE / SÜSS & FRUCHTIG',
+            'KATEGORIE / FRUCHTIG & ERFRISCHEND',
+            'KATEGORIE / SÜSS & FRUCHTIG',
+            'KATEGORIE / SÜSS & SAUER',
+            'KATEGORIE / ERFRISCHEND',
+            'KATEGORIE / SÜSS & SAUER',
+            'KATEGORIE / FRUCHTIG & ERFRISCHEND',
+            'KATEGORIE / SÜSS & SAUER',
+            'KATEGORIE / SÜSS & ERFRISCHEND',
+            'KATEGORIE / KRÄFTIG & SÜSS',
+            'KATEGORIE / KRÄFTIG & BITTER',
+            'KATEGORIE / KRÄFTIG & ERFRISCHEND',
+            'KATEGORIE / KRÄFTIG & ERFRISCHEND',
+            'KATEGORIE / SÜSS & SAUER',
+        ];
+
+        $category_us = [
+            'CATEGORY / REFRESHING',
+            'CATEGORY / SWEET & FRUITY',
+            'CATEGORY / FRUITY & REFRESHING',
+            'CATEGORY / SWEET & FRUITY',
+            'CATEGORY / SWEET & SOUR',
+            'CATEGORY / REFRESHING',
+            'CATEGORY / SWEET & SOUR',
+            'CATEGORY / FRUITY & REFRESHING',
+            'CATEGORY / SWEET & SOUR',
+            'CATEGORY / SWEET & REFRESHING',
+            'CATEGORY / BOLD & SWEET',
+            'CATEGORY / BOLD & BITTER',
+            'CATEGORY / BOLD & REFRESHING',
+            'CATEGORY / BOLD & REFRESHING',
+            'CATEGORY / SWEET & SOUR',
+        ];
+
+
+
 
         $textSlideCocktail_en = [
             "
@@ -331,8 +369,8 @@ class CocktailsSeeder extends Seeder
                 'appear3' => 'storage/cocktails/' . $i + 1 . '/images/appear3.webp',
                 'appear4' => 'storage/cocktails/' . $i + 1 . '/images/appear4.webp',
                 'category_en' => $category_en[$i],
-                'category_de' => '',
-                'category_en-us' => '',
+                'category_de' => $category_de[$i],
+                'category_en-us' => $category_us[$i],
                 'imgSlideCocktail' => 'storage/cocktails/' . $i + 1 . '/images/imgSlideCocktail.webp',
                 'textSlideCocktail_en' => $textSlideCocktail_en[$i],
                 'textSlideCocktail_de' => $textSlideCocktail_de[$i],
