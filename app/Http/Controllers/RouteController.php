@@ -25,19 +25,19 @@ class RouteController extends Controller
                 <h6>Coppa Cocktails Company</h6>
                 <h6>Amsterdam - The Netherlands</h6>
                 <h6>Chamber of Commerce: 77582586</h6>
-                <h6>Telephone number: 938 148 000</h6>
+                <h6>Telephone number: +34 938 148 000</h6>
             ',
             'text_de' => '
                 <h6>Coppa Cocktails Firma</h6>
                 <h6>Amsterdam - Die Niederlande</h6>
                 <h6>Handelskammer: 77582586</h6>
-                <h6>Telefonnummer: 938 148 000</h6>
+                <h6>Telefonnummer: +34 938 148 000</h6>
             ',
             'text_en-us' => '
                 <h6>Coppa Cocktails Company</h6>
                 <h6>Amsterdam - The Netherlands</h6>
                 <h6>Chamber of Commerce: 77582586</h6>
-                <h6>Telephone number: 938 148 000</h6>
+                <h6>Telephone number: +34 938 148 000</h6>
             ',
             'text1_en' => 'HOME',
             'text1_de' => 'HEIM',
@@ -62,19 +62,19 @@ class RouteController extends Controller
                 <h6>Coppa Cocktails Company</h6>
                 <h6>Amsterdam - The Netherlands</h6>
                 <h6>Chamber of Commerce: 77582586</h6>
-                <h6>Telephone number: 938 148 000</h6>
+                <h6>Telephone number: +34 938 148 000</h6>
             ',
             'text_de' => '
                 <h6>Coppa Cocktails Firma</h6>
                 <h6>Amsterdam - Die Niederlande</h6>
                 <h6>Handelskammer: 77582586</h6>
-                <h6>Telefonnummer: 938 148 000</h6>
+                <h6>Telefonnummer: +34 938 148 000</h6>
             ',
             'text_en-us' => '
                 <h6>Coppa Cocktails Company</h6>
                 <h6>Amsterdam - The Netherlands</h6>
                 <h6>Chamber of Commerce: 77582586</h6>
-                <h6>Telephone number: 938 148 000</h6>
+                <h6>Telephone number: +34 938 148 000</h6>
             ',
             'text1_en' => 'HOME',
             'text1_de' => 'HEIM',
