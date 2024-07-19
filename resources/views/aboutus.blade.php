@@ -18,3 +18,7 @@
     @include('aboutus.slideImages')
     @include('aboutus.details')
 @endsection
+
+@section('scripts')
+    <script src="{{ asset('js/readytodrink.js?version='.config('app.version')) }}"></script>
+@endsection

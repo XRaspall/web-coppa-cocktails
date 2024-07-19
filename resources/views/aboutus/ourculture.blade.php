@@ -16,7 +16,7 @@
                 </div>
             </div>
             <div class="col-md-7 px-0 position-relative animate-on-scroll" data-animation="animate__fadeInRight">
-                <div class="swiper-container" id="carouselOurCulture" style="max-width: 100%;">
+                <div class="swiper-container swiper-container-ourCulture" id="carouselOurCulture" style="max-width: 100%;">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <img src="{{ asset('img/aboutus/ourculture/image1.webp') }}" class="d-block w-100" alt="Imagen 1">
@@ -32,44 +32,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-navigation-container d-flex justify-content-between align-items-center mt-3">
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
+                <div class="d-flex mt-5">
+                    <div class="swiper-button-prev swiper-button-prev-OurCulture position-relative me-5"></div>
+                    <div class="swiper-button-next swiper-button-next-OurCulture position-relative"></div>
                 </div>
+
             </div>
+
         </div>
+
     </div>
 </section>
-
-<style>
-    #carouselOurCulture {
-        overflow: hidden;
-    }
-    .swiper-container {
-        width: 100%;
-    }
-    .swiper-navigation-container {
-        width: 100%;
-        text-align: center;
-    }
-    .swiper-button-prev, .swiper-button-next {
-        color: #000;
-        width: 44px;
-        height: 44px;
-        background-size: 44px 44px;
-    }
-</style>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        var swiper = new Swiper('#carouselOurCulture', {
-            slidesPerView: 1.5,
-            spaceBetween: 20,
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-            loop: true,
-        });
-    });
-</script>

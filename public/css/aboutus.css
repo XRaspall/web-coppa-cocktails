@@ -361,4 +361,26 @@
     color: #ffffff;
 }
 
+/* SLIDE OURCULTURE */
 
+#carouselOurCulture {
+    overflow: hidden;
+}
+.swiper-container-ourCulture {
+    width: 100%;
+}
+
+.swiper-button-prev-OurCulture:after, .swiper-button-next-OurCulture:after{
+    font-size: 27px;
+}
+
+.swiper-container-ourCulture .swiper-navigation-container {
+    width: 100%;
+    text-align: center;
+}
+.swiper-button-prev-OurCulture, .swiper-button-next-OurCulture {
+    color: #000;
+    width: 44px;
+    height: 44px;
+    background-size: 44px 44px;
+}

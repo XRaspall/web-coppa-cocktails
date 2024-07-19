@@ -125,3 +125,14 @@ var swiperSlideCocktailPhone = new Swiper('.swiper-container-slideCocktail-phone
     allowTouchMove: false
 
 });
+
+// SLIDE OURCULTURE DEL ABOUTUS
+var swiperOurCulture = new Swiper('#carouselOurCulture', {
+    slidesPerView: 1.5,
+    spaceBetween: 20,
+    navigation: {
+        nextEl: '.swiper-button-next-OurCulture',
+        prevEl: '.swiper-button-prev-OurCulture',
+    },
+    loop: false,
+});
