@@ -33,5 +33,11 @@ return [
             'submit' => 'SUBMIT',
             'cancel' => 'CANCEL',
         ],
+
+        'success' => [
+            'title' => 'SEND US A MESSAGE',
+            'message' => 'Thanks for submitting the form.',
+            'close' => 'Cancel'
+        ],
     ],
 ];

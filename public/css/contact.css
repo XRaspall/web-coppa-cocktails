@@ -64,7 +64,7 @@
     font-size: 24px;
 }
 
-#exampleModalCenter h5{
+#exampleModalCenter h5,#successModal h5{
     font-size: 40px;
     color: #463527;
 }

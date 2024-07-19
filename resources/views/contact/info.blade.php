@@ -94,13 +94,37 @@
             </div>
         </div>
     </div>
+</div><div class="modal fade position-fixed align-content-center" id="successModal" tabindex="-1" role="dialog" aria-labelledby="successModalTitle" aria-hidden="true">
+    <div class="container d-flex justify-content-center">
+        <div class="modal-dialog modal-dialog-centered mx-0 mw-100 w-75" role="document">
+            <div class="modal-content p-0">
+                <div class="d-flex justify-content-between w-100">
+                    <img class="modal-flowers-top" alt="" src="{{ asset('img/contact/modal-flowers-top.webp') }}">
+                    <div class="p-2">
+                        <svg id="closeSuccessModal" data-dismiss="modal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" style="cursor: pointer;">
+                            <line x1="1" y1="1" x2="23" y2="23" stroke="black" stroke-width="2"/>
+                            <line x1="23" y1="1" x2="1" y2="23" stroke="black" stroke-width="2"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="px-0 px-md-5 pb-5">
+                    <div class="text-center">
+                        <h5 class="modal-title ff-BarlowCondensedSemiBold">{{ __('contact.info.success.title') }}</h5>
+                    </div>
+                    <div class="mx-3 mx-md-5 pt-4 text-center">
+                        <p class="ff-Montserrat">{{ __('contact.info.success.message') }}</p>
+                        <div class="text-end mt-5">
+                            <a href="#" class="cancel-button ff-Montserrat" data-dismiss="modal">{{ __('contact.info.success.close') }}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
-<script>
-    $(document).ready(function() {
-        $('.open-send-message').click(function() {
-            var email = $(this).data('email');
-            $('input[name="contactEmail"]').val(email);
-        });
-    });
-</script>
+
+
+
+

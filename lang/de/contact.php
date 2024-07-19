@@ -33,6 +33,12 @@ return [
             'submit' => 'SENDEN',
             'cancel' => 'CANCEL',
         ],
+
+        'success' => [
+            'title' => 'SCHICK UNS EINE NACHRICHT',
+            'message' => 'Danke für das Ausfüllen des Formulars.',
+            'close' => 'Cancel'
+        ],
     ],
 ];
 
