@@ -7,18 +7,18 @@
         <div class="collapse navbar-collapse justify-content-center">
             <ul class="navbar-nav text-white">
                 <li class="nav-item">
-                    <a class="nav-link color-coppa-secondary ff-Montserrat" aria-current="page" href="{{ route('aboutusPage') }}">{{ __('header.about_us') }}</a>
+                    <a class="nav-link {{ request()->is('cocktails*') ? 'color-coppa-primary' : 'color-coppa-secondary' }} ff-Montserrat" aria-current="page" href="{{ route('aboutusPage') }}">{{ __('header.about_us') }}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link color-coppa-secondary ff-Montserrat {{ request()->routeIs('ourCocktailsPage') ? 'active-underline' : '' }}" href="{{ route('ourCocktailsPage') }}">{{ __('header.our_cocktails') }}</a>
+                    <a class="nav-link {{ request()->is('cocktails*') ? 'color-coppa-primary' : 'color-coppa-secondary' }} ff-Montserrat {{ request()->routeIs('ourCocktailsPage') ? 'active-underline' : '' }}" href="{{ route('ourCocktailsPage') }}">{{ __('header.our_cocktails') }}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link color-coppa-secondary ff-Montserrat {{ request()->routeIs('contactPage') ? 'active-underline' : '' }}" href="{{ route('contactPage') }}">{{ __('header.contact') }}</a>
+                    <a class="nav-link {{ request()->is('cocktails*') ? 'color-coppa-primary' : 'color-coppa-secondary' }} ff-Montserrat {{ request()->routeIs('contactPage') ? 'active-underline' : '' }}" href="{{ route('contactPage') }}">{{ __('header.contact') }}</a>
                 </li>
             </ul>
         </div>
         <div class="dropdown div-dropdown-navbar">
-            <button class="btn bg-transparent dropdown-toggle color-coppa-secondary border-0 position-relative" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+            <button class="btn bg-transparent dropdown-toggle {{ request()->is('cocktails*') ? 'color-coppa-primary' : 'color-coppa-secondary' }} border-0 position-relative" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
                 @if(app()->getLocale() === 'en') GLOBAL @elseif(app()->getLocale() === 'de') GERMANY @elseif(app()->getLocale() === 'en-us') USA @endif
                 <svg class="current-language-icon ms-2" width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M6.99999 5.17192L11.95 0.221924L13.364 1.63592L6.99999 7.99992L0.635986 1.63592L2.04999 0.221924L6.99999 5.17192Z"></path>

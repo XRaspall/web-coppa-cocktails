@@ -24,27 +24,33 @@ function closemenu() {
 
 }
 
-
 // BG WHITE
 document.addEventListener('DOMContentLoaded', function() {
     const headerPage = document.querySelector('.header-page');
+    const currentPath = window.location.pathname;
 
-    window.addEventListener('scroll', function() {
-        if (window.scrollY > 0) {
-            headerPage.style.backgroundColor = 'white';
-            const secondaryElements = headerPage.querySelectorAll('.color-coppa-secondary');
-            secondaryElements.forEach(function(element) {
-                element.classList.remove('color-coppa-secondary');
-                element.classList.add('color-coppa-primary');
-            });
-        } else {
-            headerPage.style.backgroundColor = 'transparent';
-            const primaryElements = headerPage.querySelectorAll('.color-coppa-primary');
-            primaryElements.forEach(function(element) {
-                element.classList.remove('color-coppa-primary');
-                element.classList.add('color-coppa-secondary');
-            });
-        }
-    });
+    // Check if the current path is /cocktails or any subroute of /cocktails
+    if (!currentPath.startsWith('/cocktails')) {
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 0) {
+                headerPage.style.backgroundColor = 'white';
+                const secondaryElements = headerPage.querySelectorAll('.color-coppa-secondary');
+                secondaryElements.forEach(function(element) {
+                    element.classList.remove('color-coppa-secondary');
+                    element.classList.add('color-coppa-primary');
+                });
+            } else {
+                headerPage.style.backgroundColor = 'transparent';
+                const primaryElements = headerPage.querySelectorAll('.color-coppa-primary');
+                primaryElements.forEach(function(element) {
+                    element.classList.remove('color-coppa-primary');
+                    element.classList.add('color-coppa-secondary');
+                });
+            }
+        });
+    }else{
+        headerPage.style.backgroundColor = 'white';
+    }
 });
+
 
