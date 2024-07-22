@@ -7,11 +7,15 @@
 
         @include('layouts.alert')
 
-        @include('layouts.header')
+        @if(!request()->routeIs('infoGlobal'))
+            @include('layouts.header')
+        @endif
 
         @yield('content')
 
-        @include('layouts.footer')
+        @if(!request()->routeIs('infoGlobal'))
+            @include('layouts.footer')
+        @endif
 
         @include('layouts.scripts')
 

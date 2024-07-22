@@ -1,4 +1,4 @@
-<section class="aboutcoppa-container">
+<section id="aboutCoppa" class="aboutcoppa-container">
     <div class="container-fluid position-relative">
         <div class="row">
             <div class="col-12 col-md-6 p-0 animate-on-scroll" data-animation="animate__fadeInLeft">

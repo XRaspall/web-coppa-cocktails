@@ -249,4 +249,10 @@ class RouteController extends Controller
 
         return view('legal.legal', compact('details', 'header_subtitle', 'header_title', 'legalTitle', 'legalText'));
     }
+
+    public function infoGlobal(){
+
+        return view('infoglobal');
+
+    }
 }
