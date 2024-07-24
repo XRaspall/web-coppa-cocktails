@@ -56,7 +56,7 @@
 
     {{-- MENU PHONE --}}
     <div id="div-menu-options" class="menu-phone-div bg-coppa-primary vh-100 vw-100 z-3 d-none">
-        <div class="text-end py-5 pe-5">
+        <div class="text-end pb-5 pt-3 pe-3">
             <svg width="40" height="40" xmlns="http://www.w3.org/2000/svg" onclick="closemenu()">
                 <line x1="10" y1="10" x2="33" y2="33" stroke="#FAF1E1" stroke-width="3"/>
                 <line x1="33" y1="10" x2="10" y2="33" stroke="#FAF1E1" stroke-width="3"/>

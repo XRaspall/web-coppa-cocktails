@@ -6,7 +6,7 @@
         <img alt="" src="{{ asset('img/logo.webp?version='.config('app.version')) }}" width="270" class="">
     </div>
     <div class="position-absolute bottom-0 start-50 translate-middle-x text-center mb-5">
-        <a id="enterLink" class="ff-Montserrat">ENTER OUT WORLD</a>
+        <a id="enterLink" class="ff-Montserrat">ENTER OUR WORLD</a>
     </div>
 </section>
 

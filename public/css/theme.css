@@ -214,7 +214,7 @@ div.div-dropdown-navbar .btn[aria-expanded="true"] {
 
 /* FOOTER */
 
-.links-container{
+.links-container, .data-container{
     width: 250px;
 }
 
