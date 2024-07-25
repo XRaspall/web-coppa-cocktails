@@ -45,7 +45,7 @@
                     <div class="text-center">
                         <h5 class="modal-title ff-BarlowCondensedSemiBold">{{ __('contact.info.modal.title') }}</h5>
                     </div>
-                    <form class="mx-3 mx-md-5 pt-4" action="{{ route('contactSendName') }}" method="post">
+                    <form class="mx-3 mx-md-5 pt-4" action="{{ route('contactSendName') }}" method="post" id="contactUSForm">
                         @csrf
                         <input type="hidden" id="contactEmail" name="contactEmail" value="">
                         <div class="row my-3">
