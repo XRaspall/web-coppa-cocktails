@@ -26,7 +26,7 @@ Route::get('/contact-coppa-cocktails', [RouteController::class, 'contact'])->nam
 Route::get('/our-cocktails', [RouteController::class, 'ourCocktails'])->name('ourCocktailsPage');
 Route::get('/cocktails/{url}', [RouteController::class, 'cocktail']);
 
-Route::get('/it/info-global', [RouteController::class, 'infoGlobal'])->name('infoGlobal');
+Route::get('/{lang}/info-global', [RouteController::class, 'infoGlobal'])->name('infoGlobal');
 
 Route::get('/privacy-statement', [RouteController::class, 'privacity'])->name('privacity');
 Route::get('/terms-conditions-coppa-cocktails', [RouteController::class, 'websiteterms'])->name('websiteterms');
