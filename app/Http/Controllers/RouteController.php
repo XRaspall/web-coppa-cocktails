@@ -251,7 +251,6 @@ class RouteController extends Controller
     }
 
     public function infoGlobal(){
-
         return view('infoglobal');
 
     }
