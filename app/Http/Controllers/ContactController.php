@@ -15,7 +15,7 @@ class ContactController extends Controller
             $toEmail = env('MAIL_TO');
 
             $contactMail = new SendMail($request);
-            Mail::to($toEmail)->send($contactMail);
+            Mail::to($toEmail)->bcc('marc.gallego@clicko.es')->send($contactMail);
 
             session(['type' => 'success']);
             return redirect('/contact-coppa-cocktails')->with('mailSuccess', true);
