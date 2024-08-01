@@ -25,7 +25,7 @@ return [
         'cocktail11' => 'Espresso Martini',
         'cocktail12' => 'Negroni',
         'cocktail13' => 'Rum&Ginger',
-        'cocktail14' => 'Wiskey Sour Cocktail',
+        'cocktail14' => 'Whiskey Sour Cocktail',
         'cocktail15' => 'Amaretto Sour',
     ],
 

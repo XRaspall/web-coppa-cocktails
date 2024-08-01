@@ -28,7 +28,7 @@ class CocktailsSeeder extends Seeder
             'Espresso Martini',
             'Negroni',
             'Rum&Ginger',
-            'Wiskey Sour Cocktail',
+            'Whiskey Sour Cocktail',
             'Amaretto Sour',
         ];
 
