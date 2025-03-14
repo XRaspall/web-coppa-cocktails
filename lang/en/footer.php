@@ -3,7 +3,7 @@
 return [
     'logo_alt' => 'Coppa Cocktails Logo',
     'company_name' => 'Coppa Cocktails B.V.',
-    'location' => 'Amsterdam (NL)',
+    'location' => 'Rosari 32 Street, Barcelona, Spain',
     'copyright' => '2021 - Coppa Cocktails B.V.',
     'responsibility_message' => 'Enjoy responsibly',
     'about_us' => 'About us',
