@@ -3,6 +3,7 @@
 use App\Http\Controllers\ArtisanController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\RouteController;
+use App\Http\Controllers\FormsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -36,7 +37,8 @@ Route::post('/contact-send', [ContactController::class, 'contactmail'])->name('c
 
 Route::get("/clear-cache", [ArtisanController::class, 'clearCache']);
 
-
+// FORMS ROUTES
+Route::get('/breda-live', [FormsController::class, 'bredaLive'])->name('bredaLive');
 
 // LANG ROUTES
 
